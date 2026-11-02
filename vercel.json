@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/v1/distress/county", "destination": "/api/county" },
+    { "source": "/v1/distress/tax-sales", "destination": "/api/taxSales" },
+    { "source": "/v1/distress/probate", "destination": "/api/probate" },
+    { "source": "/v1/distress/property-search", "destination": "/api/propertySearch" },
+    { "source": "/v1/distress/statutes", "destination": "/api/statutes" },
+    { "source": "/v1/distress/stats", "destination": "/api/stats" },
+    { "source": "/v1/status", "destination": "/api/index" },
+    { "source": "/api/sandbox", "destination": "/api/sandbox" },
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
+}

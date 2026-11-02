@@ -1,0 +1,244 @@
+{
+  "Ohio": {
+    "Montgomery": {
+      "county_seat": "Dayton",
+      "fips": "39113",
+      "population": 537309,
+      "auditor_property_search_url": "https://www.mcohio.org/government/elected_officials/auditor/real_estate/property_records_search.php",
+      "gis_parcel_map_url": "https://www.mcohio.org/government/elected_officials/auditor/gis_mapping.php",
+      "tax_delinquent_search_url": "https://treasurer.mcohio.org/treasurer/delinquent_taxes.php",
+      "sheriff_sale_url": "https://www.mcohio.org/government/elected_officials/sheriff/sheriff_sales.php",
+      "probate_court_url": "https://www.mcprobate.org/case-search.html",
+      "auction_platform_vendor": "RealAuction (Ohio Sheriffs)",
+      "parcel_id_format": "Letter/Numbers (e.g. R72 00101 0001)"
+    },
+    "Hamilton": {
+      "county_seat": "Cincinnati",
+      "fips": "39061",
+      "population": 830639,
+      "auditor_property_search_url": "https://wedge1.harriscagoprod.com/hamilton_auditor/search",
+      "gis_parcel_map_url": "https://cagis.hamilton-co.org/cagisonline/",
+      "tax_delinquent_search_url": "https://www.hamiltoncountyohio.gov/government/elected_officials/treasurer/tax_payments",
+      "sheriff_sale_url": "https://www.hcso.org/community-services/sheriff-sales/",
+      "probate_court_url": "https://www.probatect.org/case-search",
+      "auction_platform_vendor": "RealAuction (Hamilton County Sheriff)",
+      "parcel_id_format": "12-digit parcel (e.g. 065-0001-0023-00)"
+    },
+    "Franklin": {
+      "county_seat": "Columbus",
+      "fips": "39049",
+      "population": 1321414,
+      "auditor_property_search_url": "https://property.franklincountyauditor.com/_web/search/commonsearch.aspx?mode=address",
+      "gis_parcel_map_url": "https://gis.franklincountyauditor.com/",
+      "tax_delinquent_search_url": "https://treasurer.franklincountyohio.gov/delinquent-taxes",
+      "sheriff_sale_url": "https://sheriff.franklincountyohio.gov/Services/Sheriff-Sales",
+      "probate_court_url": "https://probate.franklincountyohio.gov/case-records",
+      "auction_platform_vendor": "Franklin County RealAuction",
+      "parcel_id_format": "010-XXXXXX-00"
+    },
+    "Cuyahoga": {
+      "county_seat": "Cleveland",
+      "fips": "39035",
+      "population": 1264817,
+      "auditor_property_search_url": "https://myplace.cuyahogacounty.gov/",
+      "gis_parcel_map_url": "https://gis.cuyahogacounty.us/enterprise/apps/webappviewer/",
+      "tax_delinquent_search_url": "https://treasurer.cuyahogacounty.gov/en-US/delinquent-taxes.aspx",
+      "sheriff_sale_url": "https://sheriff.cuyahogacounty.gov/en-US/Sheriff-Sales.aspx",
+      "probate_court_url": "https://probate.cuyahogacounty.us/pa/",
+      "auction_platform_vendor": "RealAuction (Cuyahoga)",
+      "parcel_id_format": "3-digit prefix + book/page (e.g. 101-01-001)"
+    },
+    "Greene": {
+      "county_seat": "Xenia",
+      "fips": "39057",
+      "population": 167995,
+      "auditor_property_search_url": "https://www.greenecountyohio.gov/auditor/search",
+      "gis_parcel_map_url": "https://gis.greenecountyohio.gov/",
+      "tax_delinquent_search_url": "https://www.greenecountyohio.gov/treasurer",
+      "sheriff_sale_url": "https://www.greenecountyohio.gov/sheriff/sales",
+      "probate_court_url": "https://www.greenecountyohio.gov/probate/records",
+      "auction_platform_vendor": "Ohio Sheriff Sales / RealAuction",
+      "parcel_id_format": "Alphanumeric parcel format"
+    }
+  },
+  "Texas": {
+    "Harris": {
+      "county_seat": "Houston",
+      "fips": "48201",
+      "population": 4731145,
+      "auditor_property_search_url": "https://hcad.org/property-search",
+      "gis_parcel_map_url": "https://hcad.org/gis-maps",
+      "tax_delinquent_search_url": "https://www.hctax.net/Property/PropertyTax",
+      "sheriff_sale_url": "https://www.hctax.net/Property/TaxSales/TaxSaleNotice",
+      "probate_court_url": "https://www.cclerk.hctx.net/Probate.aspx",
+      "auction_platform_vendor": "GovEase / Harris County Tax Assessor",
+      "parcel_id_format": "13-digit account number (e.g. 012-345-678-9012)"
+    },
+    "Dallas": {
+      "county_seat": "Dallas",
+      "fips": "48113",
+      "population": 2613539,
+      "auditor_property_search_url": "https://www.dallascad.org/SearchAcct.aspx",
+      "gis_parcel_map_url": "https://gis.dallascad.org/",
+      "tax_delinquent_search_url": "https://www.dallascounty.org/departments/tax/property-tax.php",
+      "sheriff_sale_url": "https://www.dallascounty.org/departments/sheriff/sheriff-sales.php",
+      "probate_court_url": "https://www.dallascounty.org/government/county-clerk/probate.php",
+      "auction_platform_vendor": "Dallas County Sheriff / RealAuction",
+      "parcel_id_format": "17-digit account number"
+    },
+    "Travis": {
+      "county_seat": "Austin",
+      "fips": "48453",
+      "population": 1290188,
+      "auditor_property_search_url": "https://traviscad.org/propertysearch",
+      "gis_parcel_map_url": "https://travis.maps.arcgis.com/",
+      "tax_delinquent_search_url": "https://tax-office.traviscountytx.gov/properties/taxes",
+      "sheriff_sale_url": "https://www.traviscountytx.gov/constables/pct5/sales",
+      "probate_court_url": "https://www.traviscountytx.gov/probate-court",
+      "auction_platform_vendor": "RealAuction / Constable Public Sale",
+      "parcel_id_format": "6-digit Quick Ref ID"
+    },
+    "Bexar": {
+      "county_seat": "San Antonio",
+      "fips": "48029",
+      "population": 2009324,
+      "auditor_property_search_url": "https://www.bcad.org/clientdb/?cid=1",
+      "gis_parcel_map_url": "https://maps.bexar.org/GIS/",
+      "tax_delinquent_search_url": "https://www.bexar.org/1511/Tax-Assessor-Collector",
+      "sheriff_sale_url": "https://www.bexar.org/1539/Tax-Sales",
+      "probate_court_url": "https://www.bexar.org/1684/Probate-Courts",
+      "auction_platform_vendor": "GovEase / Bexar County Tax Sale",
+      "parcel_id_format": "12-digit property ID"
+    }
+  },
+  "Florida": {
+    "Miami-Dade": {
+      "county_seat": "Miami",
+      "fips": "12086",
+      "population": 2701767,
+      "auditor_property_search_url": "https://www.miamidade.gov/pa/property_search.asp",
+      "gis_parcel_map_url": "https://gisweb.miamidade.gov/propertysearch/",
+      "tax_delinquent_search_url": "https://miamidade.county-taxes.com/public",
+      "sheriff_sale_url": "https://www.miamidade.realforeclose.com/",
+      "probate_court_url": "https://www.miamidadeclerk.gov/clerk/probate.page",
+      "auction_platform_vendor": "RealAuction (Miami-Dade Clerk)",
+      "parcel_id_format": "13-digit Folio Number (e.g. 01-4138-001-0010)"
+    },
+    "Broward": {
+      "county_seat": "Fort Lauderdale",
+      "fips": "12011",
+      "population": 1944375,
+      "auditor_property_search_url": "https://bcpa.net/RecSearch.asp",
+      "gis_parcel_map_url": "https://web.bcpa.net/bcpaclient/#/Map",
+      "tax_delinquent_search_url": "https://broward.county-taxes.com/public",
+      "sheriff_sale_url": "https://www.broward.realforeclose.com/",
+      "probate_court_url": "https://www.browardclerk.org/Divisions/Probate",
+      "auction_platform_vendor": "RealAuction (Broward Clerk)",
+      "parcel_id_format": "12-digit parcel ID"
+    },
+    "Orange": {
+      "county_seat": "Orlando",
+      "fips": "12095",
+      "population": 1429908,
+      "auditor_property_search_url": "https://ocpafl.org/Searches/Parcels.aspx",
+      "gis_parcel_map_url": "https://maps.ocpafl.org/",
+      "tax_delinquent_search_url": "https://www.octaxcol.com/property-tax-search/",
+      "sheriff_sale_url": "https://www.myorangeclerk.realforeclose.com/",
+      "probate_court_url": "https://www.myorangeclerk.com/Divisions/Probate",
+      "auction_platform_vendor": "RealAuction (Orange County Clerk)",
+      "parcel_id_format": "Parcel ID / PIN"
+    },
+    "Hillsborough": {
+      "county_seat": "Tampa",
+      "fips": "12057",
+      "population": 1459762,
+      "auditor_property_search_url": "https://gis.hcpafl.org/propertysearch/",
+      "gis_parcel_map_url": "https://gis.hcpafl.org/",
+      "tax_delinquent_search_url": "https://hillsborough.county-taxes.com/public",
+      "sheriff_sale_url": "https://www.hillsborough.realforeclose.com/",
+      "probate_court_url": "https://www.hillsclerk.com/Court-Services/Probate",
+      "auction_platform_vendor": "RealAuction (Hillsborough Clerk)",
+      "parcel_id_format": "Folio Number (e.g. 123456-0000)"
+    }
+  },
+  "California": {
+    "Los Angeles": {
+      "county_seat": "Los Angeles",
+      "fips": "06037",
+      "population": 9861224,
+      "auditor_property_search_url": "https://portal.assessor.lacounty.gov/",
+      "gis_parcel_map_url": "https://maps.assessor.lacounty.gov/",
+      "tax_delinquent_search_url": "https://ttc.lacounty.gov/property-tax-search/",
+      "sheriff_sale_url": "https://www.bid4assets.com/lacounty",
+      "probate_court_url": "https://www.lacourt.org/division/probate/probate.aspx",
+      "auction_platform_vendor": "Bid4Assets (Chapter 7 Tax Auction)",
+      "parcel_id_format": "10-digit Assessor Parcel Number (APN: 1234-567-890)"
+    },
+    "San Diego": {
+      "county_seat": "San Diego",
+      "fips": "06073",
+      "population": 3298634,
+      "auditor_property_search_url": "https://arcc.sdcounty.ca.gov/Pages/Assessor.aspx",
+      "gis_parcel_map_url": "https://sdgis.sandag.org/",
+      "tax_delinquent_search_url": "https://www.sdttc.com/",
+      "sheriff_sale_url": "https://www.bid4assets.com/sandiego",
+      "probate_court_url": "https://www.sdcourt.ca.gov/sdcourt/probate2",
+      "auction_platform_vendor": "Bid4Assets (San Diego Treasurer)",
+      "parcel_id_format": "8-digit APN (e.g. 123-456-78-00)"
+    },
+    "Orange": {
+      "county_seat": "Santa Ana",
+      "fips": "06059",
+      "population": 3186989,
+      "auditor_property_search_url": "https://tax.ocgov.com/tcweb/search_page.asp",
+      "gis_parcel_map_url": "https://ocgov.maps.arcgis.com/",
+      "tax_delinquent_search_url": "https://ttc.ocgov.com/",
+      "sheriff_sale_url": "https://www.bid4assets.com/orangecounty",
+      "probate_court_url": "https://www.occourts.org/directory/probate/",
+      "auction_platform_vendor": "Bid4Assets (Orange County TTC)",
+      "parcel_id_format": "8-digit APN"
+    }
+  },
+  "Illinois": {
+    "Cook": {
+      "county_seat": "Chicago",
+      "fips": "17031",
+      "population": 5275541,
+      "auditor_property_search_url": "https://www.cookcountyassessor.com/address-search",
+      "gis_parcel_map_url": "https://cookviewer1.cookcountyil.gov/cookviewer/",
+      "tax_delinquent_search_url": "https://www.cookcountytreasurer.com/setsearchparameters.aspx",
+      "sheriff_sale_url": "https://www.cookcountysheriff.org/departments/court-services-department/evictions-civil-process-foreclosures/",
+      "probate_court_url": "https://www.cookcountyclerkofcourt.org/probate-court",
+      "auction_platform_vendor": "Cook County Annual Tax Sale / Clerk Portal",
+      "parcel_id_format": "14-digit Property Index Number (PIN: 12-34-567-890-0000)"
+    }
+  },
+  "Arizona": {
+    "Maricopa": {
+      "county_seat": "Phoenix",
+      "fips": "04013",
+      "population": 4420568,
+      "auditor_property_search_url": "https://mcassessor.maricopa.gov/",
+      "gis_parcel_map_url": "https://maps.mcassessor.maricopa.gov/",
+      "tax_delinquent_search_url": "https://treasurer.maricopa.gov/Parcel/",
+      "sheriff_sale_url": "https://www.maricopacountyproperties.org/",
+      "probate_court_url": "https://superiorcourt.maricopa.gov/probate-and-mental-health/",
+      "auction_platform_vendor": "RealAuction (Maricopa Tax Lien Sale)",
+      "parcel_id_format": "Book-Map-Parcel (e.g. 123-45-678A)"
+    }
+  },
+  "Georgia": {
+    "Fulton": {
+      "county_seat": "Atlanta",
+      "fips": "13121",
+      "population": 1066710,
+      "auditor_property_search_url": "https://fultonassessor.org/property-search/",
+      "gis_parcel_map_url": "https://fultongis.maps.arcgis.com/",
+      "tax_delinquent_search_url": "https://www.fultoncountytaxes.org/property-taxes/search-for-tax-bill",
+      "sheriff_sale_url": "https://www.fultoncountysheriff.org/sheriff-sales.html",
+      "probate_court_url": "https://fultonprobate.org/records-search/",
+      "auction_platform_vendor": "Fulton County Sheriff / Courthouse Steps",
+      "parcel_id_format": "Tax Parcel ID (e.g. 14-0012-0001-023-4)"
+    }
+  }
+}

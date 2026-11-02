@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RealtyDistress API - US County Property Tax, Probate & Foreclosure Lead Router</title>
+  <meta name="description" content="Commercial REST API routing developers and real estate investors directly to county tax delinquent portals, sheriff foreclosure calendars, probate court dockets, and GIS parcel viewers across all 3,143 US counties.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <meta property="og:title" content="RealtyDistress API - Real Estate Distress Intelligence">
+  <meta property="og:description" content="Direct routing to US County property tax delinquency, probate dockets, and sheriff foreclosure sales.">
+  <meta property="og:image" content="logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #030814;
+      color: #f1f5f9;
+      font-family: 'Inter', sans-serif;
+    }
+    .font-serif-heading {
+      font-family: 'Cinzel', serif;
+    }
+    .font-mono-code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .amber-gradient-text {
+      background: linear-gradient(135deg, #fef3c7 0%, #f59e0b 50%, #b45309 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .distress-card {
+      background: rgba(11, 20, 38, 0.7);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .glow-amber {
+      box-shadow: 0 0 35px -5px rgba(245, 158, 11, 0.15);
+    }
+    .input-focus:focus {
+      border-color: #f59e0b;
+      box-shadow: 0 0 15px rgba(245, 158, 11, 0.25);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased selection:bg-[#f59e0b] selection:text-[#030814]">
+
+  <!-- Top Announcement Bar -->
+  <aside class="w-full bg-[#081326] border-b border-amber-500/20 py-2 px-4 text-xs text-slate-300 text-center flex items-center justify-center space-x-2">
+    <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+    <span><strong>NATIONWIDE COVERAGE:</strong> 3,143 US Counties, 3,284 Probate Dockets & 50-State Statutory Tax Sale Intelligence.</span>
+  </aside>
+
+  <!-- Navbar -->
+  <header class="w-full border-b border-slate-800/80 bg-[#050c1c]/90 sticky top-0 z-50 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img src="logo.png" alt="RealtyDistress Logo" class="w-11 h-11 object-contain rounded-xl drop-shadow-[0_0_12px_rgba(245,158,11,0.35)]">
+        <div>
+          <span class="text-xl font-bold tracking-tight text-white font-serif-heading">RealtyDistress <span class="text-amber-400 font-sans text-xs px-2 py-0.5 rounded-full border border-amber-400/30 bg-amber-400/10">v1.0 API</span></span>
+          <p class="text-[10px] text-slate-400 tracking-wider uppercase font-mono-code">County Tax Delinquent & Probate Gateway</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center space-x-6 text-sm text-slate-400 font-medium">
+        <a href="#console" class="hover:text-amber-400 transition">Live Console</a>
+        <a href="#endpoints" class="hover:text-amber-400 transition">Endpoints</a>
+        <a href="#code" class="hover:text-amber-400 transition">Code Snippets</a>
+        <a href="#pricing" class="hover:text-amber-400 transition">Pricing Plans</a>
+      </nav>
+
+      <div class="flex items-center space-x-3">
+        <a href="https://rapidapi.com" target="_blank" rel="noopener" class="inline-flex items-center px-4 py-2 rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs tracking-wide shadow-md hover:shadow-amber-500/20 transition">
+          <span>Subscribe on RapidAPI</span>
+          <svg class="w-3.5 h-3.5 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="flex-grow">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 text-center">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-300 text-xs font-mono-code mb-6">
+        <span>🏡 B2B PropTech Infrastructure</span>
+        <span>•</span>
+        <span>Sub-20ms Routing Velocity</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6">
+        US County <span class="amber-gradient-text font-serif-heading">Tax Delinquent</span> & Probate Router
+      </h1>
+
+      <p class="max-w-3xl mx-auto text-base sm:text-lg text-slate-400 mb-8 leading-relaxed">
+        Stop wasting hundreds of engineering hours hunting down county tax delinquency portals, sheriff foreclosure auctions, probate registries, and GIS parcel viewers. Send any US State and County and get back an exhaustive, direct-link distress routing dossier in milliseconds.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-xs font-mono-code text-slate-300">
+        <span class="px-3 py-1 rounded-md bg-slate-800/80 border border-slate-700">✓ 3,143 US Counties</span>
+        <span class="px-3 py-1 rounded-md bg-slate-800/80 border border-slate-700">✓ 3,284 Probate Dockets</span>
+        <span class="px-3 py-1 rounded-md bg-slate-800/80 border border-slate-700">✓ Tax Lien vs Tax Deed Statutes</span>
+        <span class="px-3 py-1 rounded-md bg-slate-800/80 border border-slate-700">✓ RealAuction & GovEase Vendors</span>
+      </div>
+    </section>
+
+    <!-- Interactive Live Developer Console -->
+    <section id="console" class="max-w-6xl mx-auto px-4 pb-20">
+      <div class="distress-card rounded-2xl p-6 sm:p-8 border border-amber-500/30 glow-amber">
+        
+        <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-slate-800/80 mb-6 gap-4">
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold font-serif-heading text-slate-100">Live County Distress Routing Auditor</h2>
+            <p class="text-xs sm:text-sm text-slate-400 mt-1">Audit any US jurisdiction to inspect tax delinquency portals, sheriff sale calendars, probate dockets, and redemption periods.</p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <button onclick="setSample('Ohio', 'Montgomery')" class="text-xs px-3 py-1.5 rounded bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30 transition">Ohio / Montgomery</button>
+            <button onclick="setSample('Texas', 'Harris')" class="text-xs px-3 py-1.5 rounded bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30 transition">Texas / Harris</button>
+            <button onclick="setSample('Florida', 'Miami-Dade')" class="text-xs px-3 py-1.5 rounded bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30 transition">Florida / Miami-Dade</button>
+            <button onclick="setSample('Illinois', 'Cook')" class="text-xs px-3 py-1.5 rounded bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30 transition">Illinois / Cook</button>
+          </div>
+        </div>
+
+        <!-- Form Controls -->
+        <div class="grid grid-cols-1 sm:grid-cols-12 gap-4 mb-6">
+          <div class="sm:col-span-5">
+            <label class="block text-xs font-mono-code text-slate-300 mb-1.5">US State</label>
+            <input type="text" id="stateInput" value="Ohio" placeholder="e.g. Ohio, Texas, Florida" class="w-full bg-[#020617] border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-slate-100 focus:outline-none input-focus font-medium">
+          </div>
+          <div class="sm:col-span-5">
+            <label class="block text-xs font-mono-code text-slate-300 mb-1.5">County Name</label>
+            <input type="text" id="countyInput" value="Montgomery" placeholder="e.g. Montgomery, Harris, Cook" class="w-full bg-[#020617] border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-slate-100 focus:outline-none input-focus font-medium">
+          </div>
+          <div class="sm:col-span-2 flex items-end">
+            <button id="lookupBtn" onclick="runLookup()" class="w-full py-2.5 rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold text-sm hover:brightness-110 transition shadow-md">
+              Audit County
+            </button>
+          </div>
+        </div>
+
+        <!-- Live Results Container -->
+        <div id="resultsCard" class="bg-[#020617] rounded-xl border border-slate-800 p-6">
+          <div class="flex items-center justify-between mb-4 text-xs font-mono-code pb-2 border-b border-slate-800">
+            <span id="statusBadge" class="text-slate-400">Sandbox Status: Ready</span>
+            <span id="latencyBadge" class="text-emerald-400">Audit Latency: -- ms</span>
+          </div>
+
+          <div id="auditOutput" class="space-y-6">
+            <div class="py-12 text-center text-slate-500 font-mono-code text-xs">
+              Click "Audit County" or select a sample jurisdiction above to inspect live real estate distress gateways.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- API Endpoints Spec Grid -->
+    <section id="endpoints" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-slate-800/80">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold font-serif-heading text-white">Commercial Endpoints</h2>
+        <p class="text-slate-400 text-sm mt-2">Ultra-clean RESTful specification built for high-throughput automated lead qualification.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Endpoint 1 -->
+        <div class="distress-card rounded-xl p-6 border border-slate-800">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center space-x-2">
+              <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-mono-code font-bold">GET</span>
+              <code class="text-sm font-mono-code text-slate-200">/v1/distress/county</code>
+            </div>
+            <span class="text-xs text-amber-400 font-mono-code">Master Dossier</span>
+          </div>
+          <p class="text-xs text-slate-400 mb-3">Returns the full county distress dossier: tax delinquent search URL, sheriff foreclosure calendar, probate court docket, auditor parcel search, and statutory rules.</p>
+          <div class="text-[11px] font-mono-code text-slate-500 bg-slate-950 p-2 rounded">
+            Params: ?state=OH&county=Montgomery<br>
+            Returns: Complete 4-way gateway dossier + legal statutes
+          </div>
+        </div>
+
+        <!-- Endpoint 2 -->
+        <div class="distress-card rounded-xl p-6 border border-slate-800">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center space-x-2">
+              <span class="px-2 py-0.5 rounded bg-blue-500/20 text-blue-400 text-xs font-mono-code font-bold">GET</span>
+              <code class="text-sm font-mono-code text-slate-200">/v1/distress/probate</code>
+            </div>
+            <span class="text-xs text-amber-400 font-mono-code">Estate Lead Router</span>
+          </div>
+          <p class="text-xs text-slate-400 mb-3">Resolves the exact county probate court, case search portal, and statutory creditor notice window for inheritance and estate prospecting.</p>
+          <div class="text-[11px] font-mono-code text-slate-500 bg-slate-950 p-2 rounded">
+            Params: ?state=TX&county=Harris<br>
+            Returns: Official probate court URL & docket access type
+          </div>
+        </div>
+
+        <!-- Endpoint 3 -->
+        <div class="distress-card rounded-xl p-6 border border-slate-800">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center space-x-2">
+              <span class="px-2 py-0.5 rounded bg-purple-500/20 text-purple-400 text-xs font-mono-code font-bold">GET</span>
+              <code class="text-sm font-mono-code text-slate-200">/v1/distress/property-search</code>
+            </div>
+            <span class="text-xs text-amber-400 font-mono-code">Auditor & GIS</span>
+          </div>
+          <p class="text-xs text-slate-400 mb-3">Direct link generator for County Property Appraiser / Auditor parcel searches, GIS map viewers, and parcel identification syntax.</p>
+          <div class="text-[11px] font-mono-code text-slate-500 bg-slate-950 p-2 rounded">
+            Params: ?state=FL&county=Miami-Dade<br>
+            Returns: Assessor search URL, GIS portal, and Folio format
+          </div>
+        </div>
+
+        <!-- Endpoint 4 -->
+        <div class="distress-card rounded-xl p-6 border border-slate-800">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center space-x-2">
+              <span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 text-xs font-mono-code font-bold">GET</span>
+              <code class="text-sm font-mono-code text-slate-200">/v1/distress/tax-sales</code>
+            </div>
+            <span class="text-xs text-amber-400 font-mono-code">State Statutes</span>
+          </div>
+          <p class="text-xs text-slate-400 mb-3">State-wide statutory intelligence covering Tax Lien vs. Tax Deed auction mechanisms, statutory interest rates, and redemption periods.</p>
+          <div class="text-[11px] font-mono-code text-slate-500 bg-slate-950 p-2 rounded">
+            Params: ?state=OH<br>
+            Returns: Tax system, bidding formula, redemption window, code cite
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Code Snippets -->
+    <section id="code" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-slate-800/80">
+      <div class="text-center mb-8">
+        <h2 class="text-2xl sm:text-3xl font-bold font-serif-heading text-white">Integration Snippets</h2>
+        <p class="text-slate-400 text-sm mt-1">Copy and paste into your prospecting engine or CRM backend in seconds.</p>
+      </div>
+
+      <div class="distress-card rounded-2xl p-6 border border-slate-800 max-w-4xl mx-auto">
+        <div class="flex items-center space-x-2 border-b border-slate-800 pb-3 mb-4 text-xs font-mono-code">
+          <button onclick="showSnippet('curl')" id="tab-curl" class="px-3 py-1.5 rounded bg-amber-500/20 text-amber-300 font-bold">cURL</button>
+          <button onclick="showSnippet('node')" id="tab-node" class="px-3 py-1.5 rounded text-slate-400 hover:text-slate-200">Node.js</button>
+          <button onclick="showSnippet('python')" id="tab-python" class="px-3 py-1.5 rounded text-slate-400 hover:text-slate-200">Python</button>
+        </div>
+
+        <pre id="snippetPre" class="text-xs font-mono-code text-slate-300 overflow-x-auto bg-[#020617] p-4 rounded-lg border border-slate-800/80">curl -X GET "https://realty-distress-api.vercel.app/v1/distress/county?state=OH&county=Montgomery" \
+  -H "X-RapidAPI-Key: YOUR_RAPIDAPI_KEY" \
+  -H "X-RapidAPI-Host: realty-distress-api.p.rapidapi.com"</pre>
+      </div>
+    </section>
+
+    <!-- Pricing Grid -->
+    <section id="pricing" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-800/80">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold font-serif-heading text-white">Marketplace Pricing Plans</h2>
+        <p class="text-slate-400 text-sm mt-2">Monetized seamlessly on RapidAPI with automatic quota management.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Basic -->
+        <div class="distress-card rounded-xl p-6 border border-slate-800 flex flex-col justify-between">
+          <div>
+            <div class="text-sm font-semibold text-slate-300 mb-1">Developer Free</div>
+            <div class="text-2xl font-bold text-white mb-2">$0 <span class="text-xs font-normal text-slate-400">/ mo</span></div>
+            <p class="text-xs text-slate-400 mb-4">Sandbox testing and evaluation.</p>
+            <ul class="text-xs space-y-2 text-slate-300 mb-6 font-mono-code">
+              <li>✓ 50 Requests / mo</li>
+              <li>✓ All 3,143 Counties</li>
+              <li>✓ Full Distress Dossier</li>
+              <li>✗ $0.10 / extra call</li>
+            </ul>
+          </div>
+          <a href="https://rapidapi.com" target="_blank" class="w-full py-2 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold text-center block transition">Start Free</a>
+        </div>
+
+        <!-- Pro -->
+        <div class="distress-card rounded-xl p-6 border border-amber-500/50 bg-slate-900/80 relative flex flex-col justify-between">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-2.5 py-0.5 bg-amber-500 text-slate-950 font-bold text-[10px] rounded-full uppercase tracking-wider">Most Popular</div>
+          <div>
+            <div class="text-sm font-semibold text-amber-400 mb-1">Wholesaler Pro</div>
+            <div class="text-2xl font-bold text-white mb-2">$29 <span class="text-xs font-normal text-slate-400">/ mo</span></div>
+            <p class="text-xs text-slate-400 mb-4">For active real estate wholesalers and investors.</p>
+            <ul class="text-xs space-y-2 text-slate-200 mb-6 font-mono-code">
+              <li>✓ 1,500 Requests / mo</li>
+              <li>✓ 3,284 Probate Dockets</li>
+              <li>✓ 50-State Statutory Rules</li>
+              <li>✓ Rate: 60 req / min</li>
+            </ul>
+          </div>
+          <a href="https://rapidapi.com" target="_blank" class="w-full py-2 rounded bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center block transition">Subscribe Pro</a>
+        </div>
+
+        <!-- Ultra -->
+        <div class="distress-card rounded-xl p-6 border border-slate-800 flex flex-col justify-between">
+          <div>
+            <div class="text-sm font-semibold text-slate-300 mb-1">PropTech Scale</div>
+            <div class="text-2xl font-bold text-white mb-2">$79 <span class="text-xs font-normal text-slate-400">/ mo</span></div>
+            <p class="text-xs text-slate-400 mb-4">For CRM pipelines and automated scraper bots.</p>
+            <ul class="text-xs space-y-2 text-slate-300 mb-6 font-mono-code">
+              <li>✓ 7,500 Requests / mo</li>
+              <li>✓ Priority Edge Gateway</li>
+              <li>✓ Commercial Whitelabeling</li>
+              <li>✓ Rate: 300 req / min</li>
+            </ul>
+          </div>
+          <a href="https://rapidapi.com" target="_blank" class="w-full py-2 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold text-center block transition">Subscribe Scale</a>
+        </div>
+
+        <!-- Mega -->
+        <div class="distress-card rounded-xl p-6 border border-slate-800 flex flex-col justify-between">
+          <div>
+            <div class="text-sm font-semibold text-slate-300 mb-1">Enterprise High-Load</div>
+            <div class="text-2xl font-bold text-white mb-2">$199 <span class="text-xs font-normal text-slate-400">/ mo</span></div>
+            <p class="text-xs text-slate-400 mb-4">High-volume nationwide platforms.</p>
+            <ul class="text-xs space-y-2 text-slate-300 mb-6 font-mono-code">
+              <li>✓ 25,000 Requests / mo</li>
+              <li>✓ Dedicated SLA & Uptime</li>
+              <li>✓ 24/7 Slack Channel</li>
+              <li>✓ Rate: 1,000 req / min</li>
+            </ul>
+          </div>
+          <a href="https://rapidapi.com" target="_blank" class="w-full py-2 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold text-center block transition">Subscribe Enterprise</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full border-t border-slate-800/80 bg-[#02050c] py-8 text-center text-xs text-slate-500 font-mono-code">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center space-x-2">
+        <img src="logo.png" alt="Logo" class="w-5 h-5 object-contain rounded">
+        <span>RealtyDistress API © 2026. Built for RapidAPI Marketplace & Vercel Edge.</span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="/v1/status" class="hover:text-amber-400 transition">API Status</a>
+        <span>•</span>
+        <a href="/v1/distress/stats" class="hover:text-amber-400 transition">Coverage Stats</a>
+        <span>•</span>
+        <a href="/rapidapi-openapi.json" class="hover:text-amber-400 transition">OpenAPI 3.0</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Client-side Logic -->
+  <script>
+    function setSample(state, county) {
+      document.getElementById('stateInput').value = state;
+      document.getElementById('countyInput').value = county;
+      runLookup();
+    }
+
+    async function runLookup() {
+      const state = document.getElementById('stateInput').value.trim();
+      const county = document.getElementById('countyInput').value.trim();
+      const output = document.getElementById('auditOutput');
+      const statusBadge = document.getElementById('statusBadge');
+      const latencyBadge = document.getElementById('latencyBadge');
+
+      if (!state || !county) {
+        output.innerHTML = '<div class="text-amber-400 text-xs font-mono-code">Please enter both a State and a County.</div>';
+        return;
+      }
+
+      statusBadge.innerText = 'Audit Status: Querying Gateways...';
+      statusBadge.className = 'text-amber-400 font-mono-code';
+      const start = Date.now();
+
+      try {
+        const resp = await fetch(`/api/sandbox?state=${encodeURIComponent(state)}&county=${encodeURIComponent(county)}`);
+        const json = await resp.json();
+        const elapsed = Date.now() - start;
+
+        latencyBadge.innerText = `Audit Latency: ${elapsed} ms`;
+
+        if (!resp.ok || json.error) {
+          statusBadge.innerText = 'Audit Status: Query Error';
+          statusBadge.className = 'text-red-400 font-mono-code';
+          output.innerHTML = `<div class="text-red-400 text-xs font-mono-code">${json.error || json.message}</div>`;
+          return;
+        }
+
+        statusBadge.innerText = `Audit Status: Active (${json.data.jurisdiction.county})`;
+        statusBadge.className = 'text-emerald-400 font-mono-code';
+
+        const d = json.data;
+        const g = d.distress_gateways;
+        const s = d.statutory_legal_rules;
+
+        output.innerHTML = `
+          <!-- Jurisdiction Header -->
+          <div class="flex flex-wrap items-center justify-between p-4 rounded-lg bg-[#0b1426] border border-amber-500/20">
+            <div>
+              <span class="text-xs uppercase tracking-wider text-amber-400 font-mono-code font-bold">Audited Jurisdiction</span>
+              <h3 class="text-lg font-bold text-white">${d.jurisdiction.county}, ${d.jurisdiction.state}</h3>
+              <p class="text-xs text-slate-400">County Seat: ${d.jurisdiction.county_seat} | Tier: ${d.jurisdiction.metro_tier}</p>
+            </div>
+            <div class="text-right">
+              <span class="inline-block px-3 py-1 rounded bg-amber-500/20 text-amber-300 text-xs font-bold border border-amber-500/40">
+                ${s.state_tax_system}
+              </span>
+            </div>
+          </div>
+
+          <!-- 4 Core Distress Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <!-- Card 1: Tax Delinquency -->
+            <div class="p-4 rounded-lg bg-[#070e1c] border border-slate-800">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-bold text-amber-400 font-mono-code">🏛️ TAX DELINQUENT PORTAL</span>
+                <span class="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono-code">${g.tax_delinquent_portal.status}</span>
+              </div>
+              <h4 class="text-sm font-semibold text-slate-200 mb-1">${g.tax_delinquent_portal.name}</h4>
+              <p class="text-xs text-slate-400 mb-3">${g.tax_delinquent_portal.notes}</p>
+              <a href="${g.tax_delinquent_portal.url}" target="_blank" rel="noopener" class="inline-flex items-center text-xs text-amber-400 hover:text-amber-300 underline font-mono-code break-all">
+                Open Tax Search Portal ➔
+              </a>
+            </div>
+
+            <!-- Card 2: Sheriff Foreclosure -->
+            <div class="p-4 rounded-lg bg-[#070e1c] border border-slate-800">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-bold text-red-400 font-mono-code">⚖️ SHERIFF FORECLOSURE SALE</span>
+                <span class="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono-code">${g.sheriff_foreclosure_sale.status}</span>
+              </div>
+              <h4 class="text-sm font-semibold text-slate-200 mb-1">${g.sheriff_foreclosure_sale.name}</h4>
+              <p class="text-xs text-slate-400 mb-1">Platform Vendor: <strong class="text-slate-200">${g.sheriff_foreclosure_sale.platform_vendor}</strong></p>
+              <a href="${g.sheriff_foreclosure_sale.url}" target="_blank" rel="noopener" class="inline-flex items-center text-xs text-red-400 hover:text-red-300 underline font-mono-code break-all">
+                Open Foreclosure Auction Portal ➔
+              </a>
+            </div>
+
+            <!-- Card 3: Probate Court -->
+            <div class="p-4 rounded-lg bg-[#070e1c] border border-slate-800">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-bold text-blue-400 font-mono-code">📜 PROBATE COURT & ESTATES</span>
+                <span class="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono-code">${g.probate_records_court.access_type}</span>
+              </div>
+              <h4 class="text-sm font-semibold text-slate-200 mb-1">${g.probate_records_court.name}</h4>
+              <p class="text-xs text-slate-400 mb-1">Creditor Window: <strong class="text-slate-200">${s.probate_creditor_notice_window}</strong></p>
+              <a href="${g.probate_records_court.official_court_url}" target="_blank" rel="noopener" class="inline-flex items-center text-xs text-blue-400 hover:text-blue-300 underline font-mono-code break-all">
+                Open Probate Docket Search ➔
+              </a>
+            </div>
+
+            <!-- Card 4: Property Appraiser & GIS -->
+            <div class="p-4 rounded-lg bg-[#070e1c] border border-slate-800">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-bold text-emerald-400 font-mono-code">🗺️ AUDITOR & GIS PARCEL VIEWER</span>
+                <span class="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono-code">Parcel Engine</span>
+              </div>
+              <h4 class="text-sm font-semibold text-slate-200 mb-1">${g.property_appraiser_gis.name}</h4>
+              <p class="text-xs text-slate-400 mb-2">Format: <code class="text-amber-300 text-[11px]">${g.property_appraiser_gis.parcel_format_sample}</code></p>
+              <div class="flex space-x-3 text-xs font-mono-code">
+                <a href="${g.property_appraiser_gis.property_search_url}" target="_blank" rel="noopener" class="text-emerald-400 hover:text-emerald-300 underline">Auditor Search ➔</a>
+                <a href="${g.property_appraiser_gis.gis_map_viewer_url}" target="_blank" rel="noopener" class="text-emerald-400 hover:text-emerald-300 underline">GIS Map ➔</a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Statutory Legal Rules -->
+          <div class="p-4 rounded-lg bg-[#070e1c] border border-slate-800 text-xs">
+            <span class="text-xs uppercase tracking-wider text-amber-400 font-mono-code font-bold mb-2 block">Statutory Foreclosure & Redemption Timeline (${d.jurisdiction.state})</span>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3 font-mono-code text-slate-300 mb-3">
+              <div>• Interest Rate: <strong class="text-white">${s.statutory_interest_rate}</strong></div>
+              <div>• Redemption Window: <strong class="text-white">${s.redemption_period_duration}</strong></div>
+              <div>• Legal Code: <strong class="text-white">${s.statutory_code_reference}</strong></div>
+            </div>
+            <p class="text-slate-400 leading-relaxed">${s.legal_foreclosure_process}. Bidding Formula: ${s.bidding_formula}</p>
+          </div>
+        `;
+
+      } catch (err) {
+        statusBadge.innerText = 'Audit Status: Network Error';
+        statusBadge.className = 'text-red-400 font-mono-code';
+        output.innerHTML = `<div class="text-red-400 text-xs font-mono-code">${err.message}</div>`;
+      }
+    }
+
+    const SNIPPETS = {
+      curl: `curl -X GET "https://realty-distress-api.vercel.app/v1/distress/county?state=OH&county=Montgomery" \\
+  -H "X-RapidAPI-Key: YOUR_RAPIDAPI_KEY" \\
+  -H "X-RapidAPI-Host: realty-distress-api.p.rapidapi.com"`,
+
+      node: `async function getCountyDistress(state, county) {
+  const res = await fetch(\`https://realty-distress-api.vercel.app/v1/distress/county?state=\${state}&county=\${county}\`, {
+    headers: {
+      'X-RapidAPI-Key': 'YOUR_RAPIDAPI_KEY',
+      'X-RapidAPI-Host': 'realty-distress-api.p.rapidapi.com'
+    }
+  });
+  const data = await res.json();
+  console.log('Tax Delinquent URL:', data.data.distress_gateways.tax_delinquent_portal.url);
+  console.log('Probate Docket URL:', data.data.distress_gateways.probate_records_court.official_court_url);
+}
+
+getCountyDistress('OH', 'Montgomery');`,
+
+      python: `import requests
+
+url = "https://realty-distress-api.vercel.app/v1/distress/county"
+params = {"state": "TX", "county": "Harris"}
+
+headers = {
+    "X-RapidAPI-Key": "YOUR_RAPIDAPI_KEY",
+    "X-RapidAPI-Host": "realty-distress-api.p.rapidapi.com"
+}
+
+response = requests.get(url, headers=headers, params=params)
+data = response.json()
+
+gateways = data['data']['distress_gateways']
+print("Sheriff Sale URL:", gateways['sheriff_foreclosure_sale']['url'])
+print("Redemption Window:", data['data']['statutory_legal_rules']['redemption_period_duration'])`
+    };
+
+    function showSnippet(lang) {
+      document.getElementById('snippetPre').innerText = SNIPPETS[lang];
+      ['curl', 'node', 'python'].forEach(l => {
+        const btn = document.getElementById('tab-' + l);
+        if (l === lang) {
+          btn.className = 'px-3 py-1.5 rounded bg-amber-500/20 text-amber-300 font-bold';
+        } else {
+          btn.className = 'px-3 py-1.5 rounded text-slate-400 hover:text-slate-200';
+        }
+      });
+    }
+
+    // Auto-load Montgomery County on initial visit
+    window.addEventListener('DOMContentLoaded', () => {
+      runLookup();
+    });
+  </script>
+</body>
+</html>

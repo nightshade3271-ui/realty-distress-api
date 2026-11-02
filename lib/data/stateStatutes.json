@@ -1,0 +1,492 @@
+{
+  "Alabama": {
+    "system": "Tax Lien",
+    "auction_type": "Tax Lien Certificate (Annual May/June)",
+    "statutory_interest_rate": "12% per annum",
+    "redemption_period": "3 years from date of tax sale",
+    "foreclosure_process": "Judicial foreclosure after 3-year redemption window expiration",
+    "bidding_method": "Bid down interest rate (lowest interest wins, starting at 12%)",
+    "statutory_code": "Ala. Code § 40-10-1 et seq.",
+    "probate_notice_period": "6 months from letters testamentary"
+  },
+  "Alaska": {
+    "system": "Tax Deed",
+    "auction_type": "Judicial Tax Foreclosure Deed",
+    "statutory_interest_rate": "Statutory penalty up to 15%",
+    "redemption_period": "1 year from judgment of foreclosure",
+    "foreclosure_process": "Borough/City in rem tax foreclosure",
+    "bidding_method": "Premium bid over delinquent taxes and costs",
+    "statutory_code": "Alaska Stat. § 29.45.330 et seq.",
+    "probate_notice_period": "4 months from first publication"
+  },
+  "Arizona": {
+    "system": "Tax Lien",
+    "auction_type": "Tax Lien Certificate (Annual February)",
+    "statutory_interest_rate": "Up to 16% per annum (bid down)",
+    "redemption_period": "3 years from certificate purchase date",
+    "foreclosure_process": "Judicial foreclosure of right to redeem in Superior Court",
+    "bidding_method": "Bid down interest rate (down to 0%)",
+    "statutory_code": "A.R.S. § 42-18101 et seq.",
+    "probate_notice_period": "4 months from first publication"
+  },
+  "Arkansas": {
+    "system": "Tax Deed",
+    "auction_type": "State Land Commissioner Public Auction",
+    "statutory_interest_rate": "10% per annum statutory interest plus penalties",
+    "redemption_period": "1 to 2 years before state certification; 30 days after sale",
+    "foreclosure_process": "Certified to State Commissioner of State Lands (COSL)",
+    "bidding_method": "Online auction via Arkansas COSL portal",
+    "statutory_code": "Ark. Code Ann. § 26-37-101 et seq.",
+    "probate_notice_period": "6 months from first publication"
+  },
+  "California": {
+    "system": "Tax Deed",
+    "auction_type": "Public Auction Tax Deed (Chapter 7)",
+    "statutory_interest_rate": "1.5% per month (18% annually) penalty on delinquent taxes",
+    "redemption_period": "5 years power to sell statutory default period",
+    "foreclosure_process": "County Tax Collector auctions property after 5-year delinquency",
+    "bidding_method": "Competitive overbid auction (Bid4Assets / County platform)",
+    "statutory_code": "Cal. Rev. & Tax Code § 3351 et seq.",
+    "probate_notice_period": "4 months from letters issuance"
+  },
+  "Colorado": {
+    "system": "Tax Lien",
+    "auction_type": "County Treasurer Tax Lien Sale (Annual Fall)",
+    "statutory_interest_rate": "Federal discount rate + 9% (typically 12% - 15%)",
+    "redemption_period": "3 years from sale date",
+    "foreclosure_process": "Treasurer Deed application after 3-year statutory window",
+    "bidding_method": "Premium bidding (premium does not earn interest)",
+    "statutory_code": "C.R.S. § 39-11-101 et seq.",
+    "probate_notice_period": "4 months from publication"
+  },
+  "Connecticut": {
+    "system": "Tax Deed",
+    "auction_type": "Tax Collector Sale (Redeemable Deed)",
+    "statutory_interest_rate": "18% annual penalty (1.5% per month)",
+    "redemption_period": "6 months from auction date",
+    "foreclosure_process": "Summary tax collector deed or judicial tax foreclosure",
+    "bidding_method": "Competitive open auction",
+    "statutory_code": "Conn. Gen. Stat. § 12-157 et seq.",
+    "probate_notice_period": "150 days from letters"
+  },
+  "Delaware": {
+    "system": "Tax Deed",
+    "auction_type": "Monition Tax Sale / Sheriff Sale",
+    "statutory_interest_rate": "15% redemption penalty",
+    "redemption_period": "60 days (Monition) to 1 year (Sheriff sale)",
+    "foreclosure_process": "Superior Court monition proceeding and sheriff execution",
+    "bidding_method": "County Sheriff public auction",
+    "statutory_code": "9 Del. C. § 8721 et seq.",
+    "probate_notice_period": "8 months from death"
+  },
+  "Florida": {
+    "system": "Tax Lien & Tax Deed",
+    "auction_type": "Tax Certificate (May) & Tax Deed Sale (RealAuction)",
+    "statutory_interest_rate": "Up to 18% per annum (bid down) with mandatory 5% minimum floor",
+    "redemption_period": "2 years before certificate holder can apply for Tax Deed",
+    "foreclosure_process": "Tax Deed application triggers Clerk of Court public auction",
+    "bidding_method": "Certificates: Bid down to 0.25%; Tax Deeds: Cash overbid",
+    "statutory_code": "Fla. Stat. § 197.432 & § 197.502",
+    "probate_notice_period": "3 months from publication"
+  },
+  "Georgia": {
+    "system": "Hybrid / Redeemable Deed",
+    "auction_type": "Sheriff Tax Deed Sale (First Tuesday of Month)",
+    "statutory_interest_rate": "20% penalty flat for Year 1 (+10% per year thereafter)",
+    "redemption_period": "12 months statutory right of redemption",
+    "foreclosure_process": "Barment of Right of Redemption (Notice of Foreclosure / Ripening)",
+    "bidding_method": "Competitive public auction at county courthouse",
+    "statutory_code": "O.C.G.A. § 48-4-40 et seq.",
+    "probate_notice_period": "3 months from notice"
+  },
+  "Hawaii": {
+    "system": "Tax Deed",
+    "auction_type": "County Real Property Tax Auction",
+    "statutory_interest_rate": "12% per annum penalty on redemption",
+    "redemption_period": "1 year from date of sale",
+    "foreclosure_process": "County director of finance public auction",
+    "bidding_method": "Public oral auction over upset price",
+    "statutory_code": "Haw. Rev. Stat. § 246-56 et seq.",
+    "probate_notice_period": "4 months from publication"
+  },
+  "Idaho": {
+    "system": "Tax Deed",
+    "auction_type": "County Treasurer Tax Deed Auction",
+    "statutory_interest_rate": "1% per month penalty plus statutory fees",
+    "redemption_period": "3 years from delinquency date",
+    "foreclosure_process": "County Commissioners issue deed to county, then auction",
+    "bidding_method": "County live or online auction",
+    "statutory_code": "Idaho Code § 63-1005 et seq.",
+    "probate_notice_period": "4 months from publication"
+  },
+  "Illinois": {
+    "system": "Tax Lien",
+    "auction_type": "Annual County Tax Sale (Delinquent Taxes)",
+    "statutory_interest_rate": "Up to 18% penalty per 6-month period (bid down to 0%)",
+    "redemption_period": "2 to 2.5 years (residential), 30 months (homestead)",
+    "foreclosure_process": "Circuit Court petition for Tax Deed",
+    "bidding_method": "Bid down penalty percentage (lowest penalty wins)",
+    "statutory_code": "35 ILCS 200/21-190 et seq.",
+    "probate_notice_period": "6 months from publication"
+  },
+  "Indiana": {
+    "system": "Tax Lien",
+    "auction_type": "County Treasurer Tax Sale (Fall) & Commissioner Certificate Sale (Spring)",
+    "statutory_interest_rate": "10% first 6 months, 15% second 6 months (+5% per annum on surplus)",
+    "redemption_period": "1 year (County Sale) / 120 days (Commissioner Sale)",
+    "foreclosure_process": "Petition to Circuit Court for Tax Deed",
+    "bidding_method": "Minimum bid of taxes + penalties with premium overbid (SRI Services)",
+    "statutory_code": "Ind. Code § 6-1.1-24 et seq.",
+    "probate_notice_period": "3 months from publication"
+  },
+  "Iowa": {
+    "system": "Tax Lien",
+    "auction_type": "Annual County Tax Sale (Third Monday in June)",
+    "statutory_interest_rate": "2% per month (24% per year)",
+    "redemption_period": "1 year 9 months before 90-day Notice of Right of Redemption",
+    "foreclosure_process": "County Treasurer Tax Deed issued after 90-day notice expiry",
+    "bidding_method": "Bid down undivided percentage interest (down to 1%)",
+    "statutory_code": "Iowa Code § 446.1 et seq.",
+    "probate_notice_period": "4 months from second publication"
+  },
+  "Kansas": {
+    "system": "Tax Deed",
+    "auction_type": "Judicial Tax Foreclosure Sale",
+    "statutory_interest_rate": "Statutory interest rate set by state director of taxation",
+    "redemption_period": "2 years (vacant) to 3 years (homestead) before foreclosure petition",
+    "foreclosure_process": "District Court foreclosure action followed by Sheriff auction",
+    "bidding_method": "Competitive public auction; immediate title transfer",
+    "statutory_code": "K.S.A. § 79-2801 et seq.",
+    "probate_notice_period": "4 months from notice"
+  },
+  "Kentucky": {
+    "system": "Tax Lien",
+    "auction_type": "County Clerk Delinquent Tax Bill Sale (Summer)",
+    "statutory_interest_rate": "12% per annum simple interest + 13% county clerk collection fee",
+    "redemption_period": "1 year from certificate of delinquency purchase",
+    "foreclosure_process": "Judicial foreclosure in Circuit Court after 1-year holding",
+    "bidding_method": "Registered third-party purchasers buy certificates at par",
+    "statutory_code": "KRS § 134.420 et seq.",
+    "probate_notice_period": "6 months from appointment"
+  },
+  "Louisiana": {
+    "system": "Tax Title (Adjudicated)",
+    "auction_type": "Tax Sale / Adjudicated Property Sale",
+    "statutory_interest_rate": "1% per month penalty (12% per year) plus 5% flat statutory fee",
+    "redemption_period": "3 years from recordation of tax sale",
+    "foreclosure_process": "Suit to Quiet Title / Monition proceeding",
+    "bidding_method": "Bid down least undivided percentage of property (CivicSource)",
+    "statutory_code": "La. R.S. § 47:2153 et seq.",
+    "probate_notice_period": "No strict deadline; prescriptive claims vary"
+  },
+  "Maryland": {
+    "system": "Tax Lien",
+    "auction_type": "Annual County Tax Lien Auction (May/June)",
+    "statutory_interest_rate": "Set by county statute (typically 6% to 24% per year)",
+    "redemption_period": "6 months from auction date",
+    "foreclosure_process": "Circuit Court Equity Proceeding to foreclose right of redemption",
+    "bidding_method": "High bid premium system",
+    "statutory_code": "Md. Code, Tax-Prop. § 14-808 et seq.",
+    "probate_notice_period": "6 months from death"
+  },
+  "Massachusetts": {
+    "system": "Tax Title",
+    "auction_type": "Tax Taking by Municipality",
+    "statutory_interest_rate": "16% per annum on tax title account",
+    "redemption_period": "6 months after taking before Land Court petition",
+    "foreclosure_process": "Land Court Petition to foreclose all rights of redemption",
+    "bidding_method": "Tax title auction or assignment",
+    "statutory_code": "M.G.L. c. 60 § 53 et seq.",
+    "probate_notice_period": "1 year from date of death"
+  },
+  "Michigan": {
+    "system": "Tax Deed",
+    "auction_type": "County Treasurer Foreclosure Auction (August & October)",
+    "statutory_interest_rate": "1.5% per month (18% annually) + 4% administration fee",
+    "redemption_period": "2.5 years (forfeiture occurs March 1 of year 2; redemption ends March 31 of year 3)",
+    "foreclosure_process": "Judicial foreclosure vesting fee simple absolute in Foreclosing Governmental Unit",
+    "bidding_method": "Online auction via Title-Check / County portal",
+    "statutory_code": "MCL § 211.78 et seq. (General Property Tax Act)",
+    "probate_notice_period": "4 months from publication"
+  },
+  "Minnesota": {
+    "system": "Tax Forfeiture",
+    "auction_type": "County Tax-Forfeited Land Public Auction",
+    "statutory_interest_rate": "Statutory interest rate set by state",
+    "redemption_period": "3 years (non-agricultural) / 5 years (homestead) from tax judgment sale",
+    "foreclosure_process": "County Auditor files notice of expiration of redemption; property forfeits to State in trust",
+    "bidding_method": "County public sealed or oral bid",
+    "statutory_code": "Minn. Stat. § 281.01 et seq.",
+    "probate_notice_period": "4 months from notice"
+  },
+  "Mississippi": {
+    "system": "Tax Lien",
+    "auction_type": "County Tax Sale (Last Monday in August)",
+    "statutory_interest_rate": "1.5% per month (18% annually) penalty",
+    "redemption_period": "2 years from tax sale date",
+    "foreclosure_process": "Chancery Clerk issues Tax Deed after 2-year statutory notice",
+    "bidding_method": "Overbid auction at courthouse or online (GovEase)",
+    "statutory_code": "Miss. Code § 27-41-55 et seq.",
+    "probate_notice_period": "90 days from first publication"
+  },
+  "Missouri": {
+    "system": "Tax Lien / Deed",
+    "auction_type": "County Collector Delinquent Land Tax Sale (Fourth Monday in August)",
+    "statutory_interest_rate": "10% per annum on amount paid",
+    "redemption_period": "1 year for 1st & 2nd offerings; no redemption on 3rd offering",
+    "foreclosure_process": "Collector issues deed after 90-day title search notice",
+    "bidding_method": "Public auction at courthouse door",
+    "statutory_code": "Mo. Rev. Stat. § 140.150 et seq.",
+    "probate_notice_period": "6 months from publication"
+  },
+  "Montana": {
+    "system": "Tax Lien",
+    "auction_type": "County Treasurer Tax Lien Sale (Annual July)",
+    "statutory_interest_rate": "10% per annum + 2% penalty",
+    "redemption_period": "3 years from tax lien assignment date",
+    "foreclosure_process": "County Treasurer Tax Deed application with 60-day notice",
+    "bidding_method": "Third-party assignment of delinquent taxes",
+    "statutory_code": "Mont. Code Ann. § 15-17-121 et seq.",
+    "probate_notice_period": "4 months from notice"
+  },
+  "Nebraska": {
+    "system": "Tax Lien",
+    "auction_type": "County Treasurer Tax Sale (First Monday in March)",
+    "statutory_interest_rate": "14% per annum statutory interest",
+    "redemption_period": "3 years from certificate sale date",
+    "foreclosure_process": "District Court foreclosure or administrative Treasurer's deed",
+    "bidding_method": "Round-robin assignment or competitive bidding",
+    "statutory_code": "Neb. Rev. Stat. § 77-1801 et seq.",
+    "probate_notice_period": "2 months from publication"
+  },
+  "Nevada": {
+    "system": "Tax Deed",
+    "auction_type": "County Treasurer Tax Delinquent Property Auction",
+    "statutory_interest_rate": "10% per annum penalty on delinquent taxes",
+    "redemption_period": "2 years from first Monday in June following delinquency",
+    "foreclosure_process": "Treasurer conveys deed to County in trust, auctioned after notice",
+    "bidding_method": "Competitive oral or online auction (Bid4Assets)",
+    "statutory_code": "NRS § 361.564 et seq.",
+    "probate_notice_period": "60 to 90 days from publication"
+  },
+  "New Hampshire": {
+    "system": "Tax Lien",
+    "auction_type": "Municipal Tax Lien Execution",
+    "statutory_interest_rate": "14% per annum on delinquent taxes",
+    "redemption_period": "2 years from tax lien execution date",
+    "foreclosure_process": "Tax Collector Deed to Town/City after 2-year redemption expiry",
+    "bidding_method": "Municipal tax lien execution",
+    "statutory_code": "N.H. Rev. Stat. § 80:59 et seq.",
+    "probate_notice_period": "6 months from grant of administration"
+  },
+  "New Jersey": {
+    "system": "Tax Lien",
+    "auction_type": "Municipal Tax Sale (Annual)",
+    "statutory_interest_rate": "Up to 18% per annum (bid down to 0% with cash premium)",
+    "redemption_period": "2 years from sale date (private buyer) / 6 months (municipality)",
+    "foreclosure_process": "Superior Court in rem or in personam Tax Lien Foreclosure",
+    "bidding_method": "Bid down interest rate; bid up cash premium at 0%",
+    "statutory_code": "N.J.S.A. § 54:5-1 et seq.",
+    "probate_notice_period": "9 months from appointment"
+  },
+  "New Mexico": {
+    "system": "Tax Deed",
+    "auction_type": "State Taxation and Revenue Department Delinquent Property Sale",
+    "statutory_interest_rate": "1% per month penalty + 1% interest",
+    "redemption_period": "3 years from delinquency before transfer to state for auction",
+    "foreclosure_process": "Property Tax Division of State auctions property",
+    "bidding_method": "State public auction",
+    "statutory_code": "NMSA 1978 § 7-38-65 et seq.",
+    "probate_notice_period": "2 months from publication"
+  },
+  "New York": {
+    "system": "Tax Deed / Lien (County Dependent)",
+    "auction_type": "In Rem Tax Foreclosure Auction (NYS Real Property Tax Law)",
+    "statutory_interest_rate": "1% to 1.5% per month penalty",
+    "redemption_period": "2 years from date of tax lien filing",
+    "foreclosure_process": "County County Court in rem foreclosure proceeding",
+    "bidding_method": "County public surplus auction (NYSauctions / Auctions International)",
+    "statutory_code": "NY RPTL § 1120 et seq.",
+    "probate_notice_period": "7 months from letters issuance"
+  },
+  "North Carolina": {
+    "system": "Tax Deed (Mortgage Foreclosure Style)",
+    "auction_type": "County Sheriff / Commissioner Tax Foreclosure Auction",
+    "statutory_interest_rate": "0.75% per month penalty",
+    "redemption_period": "10-day upset bid period following the auction",
+    "foreclosure_process": "Judicial foreclosure proceeding in Superior Court",
+    "bidding_method": "Courthouse auction with 10-day upset bid process (minimum 5% increase)",
+    "statutory_code": "N.C.G.S. § 105-374 et seq.",
+    "probate_notice_period": "90 days from notice"
+  },
+  "North Dakota": {
+    "system": "Tax Deed",
+    "auction_type": "Annual County Tax Foreclosure Auction (Third Tuesday in November)",
+    "statutory_interest_rate": "1% per month penalty",
+    "redemption_period": "3 years from date of tax lien attachment",
+    "foreclosure_process": "County Auditor Tax Deed issued after 90-day certified notice",
+    "bidding_method": "Public oral auction at county courthouse",
+    "statutory_code": "N.D.C.C. § 57-28-01 et seq.",
+    "probate_notice_period": "3 months from publication"
+  },
+  "Ohio": {
+    "system": "Tax Foreclosure / Tax Certificate",
+    "auction_type": "Sheriff Foreclosure Sale / County Treasurer Tax Certificate Sale",
+    "statutory_interest_rate": "Up to 18% per annum (tax certificates)",
+    "redemption_period": "1 year statutory redemption period for tax certificates; right to redeem prior to confirmation of sale",
+    "foreclosure_process": "County Prosecutor files tax foreclosure in Common Pleas Court; Sheriff conducts auction (RealAuction/Online)",
+    "bidding_method": "Two-thirds of appraised value at 1st sale; minimum taxes and costs at 2nd sale",
+    "statutory_code": "ORC § 323.25, § 5721.18 & § 5721.30 et seq.",
+    "probate_notice_period": "6 months from date of death"
+  },
+  "Oklahoma": {
+    "system": "Tax Deed",
+    "auction_type": "County Treasurer June Resale",
+    "statutory_interest_rate": "1.5% per month (18% annually)",
+    "redemption_period": "2 years from initial November tax sale",
+    "foreclosure_process": "Treasurer Resale Deed conveys virgin fee-simple title extinguishing prior liens",
+    "bidding_method": "County Treasurer public resale auction",
+    "statutory_code": "68 O.S. § 3105 & § 3125 et seq.",
+    "probate_notice_period": "2 months from notice"
+  },
+  "Oregon": {
+    "system": "Tax Deed",
+    "auction_type": "County Tax Foreclosure Judgment Sale",
+    "statutory_interest_rate": "1.33% per month (16% per year)",
+    "redemption_period": "2 years from date of circuit court foreclosure judgment",
+    "foreclosure_process": "Circuit Court general judgment followed by County Tax Deed",
+    "bidding_method": "County surplus property public auction",
+    "statutory_code": "ORS § 312.010 et seq.",
+    "probate_notice_period": "4 months from publication"
+  },
+  "Pennsylvania": {
+    "system": "Tax Deed (Upset & Judicial Sale)",
+    "auction_type": "Tax Claim Bureau Upset Sale (September) & Judicial Sale (Spring)",
+    "statutory_interest_rate": "0.75% per month (9% per annum)",
+    "redemption_period": "No redemption after Upset Sale in 2nd-8th class counties; 9 months in Philadelphia",
+    "foreclosure_process": "Upset Sale (subject to mortgages); Judicial Sale (free and clear title)",
+    "bidding_method": "Upset price = all delinquent taxes + liens; Judicial = free & clear overbid",
+    "statutory_code": "72 P.S. § 5860.101 et seq. (RETSL)",
+    "probate_notice_period": "1 year from publication"
+  },
+  "Rhode Island": {
+    "system": "Tax Lien / Redeemable Deed",
+    "auction_type": "Tax Collector Sale",
+    "statutory_interest_rate": "1% per month penalty + 10% redemption penalty in year 1",
+    "redemption_period": "1 year from sale date before Superior Court petition",
+    "foreclosure_process": "Petition to Foreclose Right of Redemption in Superior Court",
+    "bidding_method": "Public auction at city/town hall",
+    "statutory_code": "R.I. Gen. Laws § 44-9-1 et seq.",
+    "probate_notice_period": "6 months from publication"
+  },
+  "South Carolina": {
+    "system": "Tax Deed (Redeemable)",
+    "auction_type": "Delinquent Tax Collector Annual Auction (October-December)",
+    "statutory_interest_rate": "3% in Q1, 6% in Q2, 9% in Q3, 12% in Q4 (capped at bid amount)",
+    "redemption_period": "12 months from date of tax sale",
+    "foreclosure_process": "Tax Collector issues Delinquent Tax Deed after 12-month notice",
+    "bidding_method": "Competitive public cash auction",
+    "statutory_code": "S.C. Code Ann. § 12-51-40 et seq.",
+    "probate_notice_period": "8 months from first publication"
+  },
+  "South Dakota": {
+    "system": "Tax Lien",
+    "auction_type": "County Treasurer Tax Certificate Sale (Third Monday in December)",
+    "statutory_interest_rate": "10% per annum statutory interest",
+    "redemption_period": "3 years (or 4 years if municipal) from sale date",
+    "foreclosure_process": "Treasurer Tax Deed proceedings with 60-day notice of intention",
+    "bidding_method": "Private or public tax certificate assignment",
+    "statutory_code": "SDCL § 10-23-1 et seq.",
+    "probate_notice_period": "4 months from notice"
+  },
+  "Tennessee": {
+    "system": "Tax Deed (Redeemable)",
+    "auction_type": "Chancery Court Delinquent Tax Sale",
+    "statutory_interest_rate": "12% per annum statutory interest on redemption",
+    "redemption_period": "1 year from entry of confirmation of sale order",
+    "foreclosure_process": "County Delinquent Tax Attorney files lawsuit in Chancery Court",
+    "bidding_method": "Public auction conducted by Clerk and Master",
+    "statutory_code": "Tenn. Code Ann. § 67-5-2501 et seq.",
+    "probate_notice_period": "4 months (if notice given) or 12 months (without notice)"
+  },
+  "Texas": {
+    "system": "Redeemable Tax Deed",
+    "auction_type": "Sheriff Tax Sale (First Tuesday of Month)",
+    "statutory_interest_rate": "25% redemption penalty in Year 1; 50% penalty in Year 2",
+    "redemption_period": "2 years for Homestead / Agricultural; 180 days (6 months) for all others",
+    "foreclosure_process": "District Court in rem tax lawsuit followed by Sheriff auction",
+    "bidding_method": "Live courthouse or online auction (GovEase / RealAuction) with opening bid = taxes + fees",
+    "statutory_code": "Tex. Tax Code § 34.01 & § 34.21 et seq.",
+    "probate_notice_period": "4 months from letters issuance"
+  },
+  "Utah": {
+    "system": "Tax Deed",
+    "auction_type": "Annual County May Tax Sale",
+    "statutory_interest_rate": "Statutory interest and penalties set by State Tax Commission",
+    "redemption_period": "4 years from initial date of delinquency",
+    "foreclosure_process": "County Auditor conducts public tax deed sale following 4-year holding",
+    "bidding_method": "Public oral or online auction; bid over minimum delinquent costs",
+    "statutory_code": "Utah Code § 59-2-1351 et seq.",
+    "probate_notice_period": "3 months from publication"
+  },
+  "Vermont": {
+    "system": "Tax Deed (Redeemable)",
+    "auction_type": "Town Tax Collector Public Auction",
+    "statutory_interest_rate": "1% per month penalty + 8% collection fee",
+    "redemption_period": "1 year from auction date",
+    "foreclosure_process": "Collector issues Tax Deed after 1-year statutory redemption expiration",
+    "bidding_method": "Town public oral auction",
+    "statutory_code": "32 V.S.A. § 5251 et seq.",
+    "probate_notice_period": "4 months from publication"
+  },
+  "Virginia": {
+    "system": "Tax Deed (Judicial)",
+    "auction_type": "Special Commissioner Judicial Tax Sale",
+    "statutory_interest_rate": "10% per annum penalty on delinquent taxes",
+    "redemption_period": "Right of redemption terminates upon entry of decree of confirmation",
+    "foreclosure_process": "Circuit Court equity suit for sale of land for delinquent taxes",
+    "bidding_method": "Public auction conducted by Special Commissioner",
+    "statutory_code": "Va. Code § 58.1-3965 et seq.",
+    "probate_notice_period": "6 months from qualification"
+  },
+  "Washington": {
+    "system": "Tax Deed",
+    "auction_type": "County Treasurer Tax Foreclosure Auction (Annual Fall/Winter)",
+    "statutory_interest_rate": "12% per annum penalty + 3% to 8% state penalty",
+    "redemption_period": "3 years from delinquency before certificate of delinquency issued; right to redeem ends day before sale",
+    "foreclosure_process": "Superior Court order of foreclosure followed by Treasurer auction",
+    "bidding_method": "Online public auction (Bid4Assets) over minimum bid",
+    "statutory_code": "RCW § 84.64.050 et seq.",
+    "probate_notice_period": "4 months (with actual notice) or 24 months"
+  },
+  "West Virginia": {
+    "system": "Tax Lien & Auditor Sale",
+    "auction_type": "Sheriff Tax Lien Sale (November) & State Auditor Escrow Sale",
+    "statutory_interest_rate": "12% per annum statutory interest on redemption",
+    "redemption_period": "18 months from Sheriff sale",
+    "foreclosure_process": "State Auditor Deputy Commissioner deed issuance following title examination",
+    "bidding_method": "Sheriff auction followed by State Auditor public land sale",
+    "statutory_code": "W. Va. Code § 11A-3-1 et seq.",
+    "probate_notice_period": "60 days from publication"
+  },
+  "Wisconsin": {
+    "system": "Tax Deed (In Rem)",
+    "auction_type": "County Tax Deed Property Auction",
+    "statutory_interest_rate": "1% per month penalty + 0.5% county penalty (18% total)",
+    "redemption_period": "2 years from tax certificate issuance",
+    "foreclosure_process": "Circuit Court in rem foreclosure or County Clerk Tax Deed",
+    "bidding_method": "County surplus real estate public sale",
+    "statutory_code": "Wis. Stat. § 75.01 et seq. & § 75.521",
+    "probate_notice_period": "3 to 4 months from notice"
+  },
+  "Wyoming": {
+    "system": "Tax Lien",
+    "auction_type": "County Treasurer Tax Lien Sale (July / August)",
+    "statutory_interest_rate": "15% per annum interest + 3% flat penalty",
+    "redemption_period": "4 years from certificate sale date",
+    "foreclosure_process": "Treasurer Tax Deed application with 3-month statutory notice",
+    "bidding_method": "County lottery / round-robin selection at par value",
+    "statutory_code": "Wyo. Stat. § 39-13-108 et seq.",
+    "probate_notice_period": "3 months from publication"
+  }
+}

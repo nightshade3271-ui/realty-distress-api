@@ -1,0 +1,25 @@
+{
+  "name": "realty-distress-api",
+  "version": "1.0.0",
+  "description": "RealtyDistress API - US County Property Tax Delinquency, Probate & Foreclosure Lead Routing Intelligence API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "real-estate",
+    "proptech",
+    "tax-delinquent",
+    "tax-liens",
+    "tax-deeds",
+    "probate-leads",
+    "foreclosure",
+    "sheriff-sale",
+    "county-assessor",
+    "rapidapi"
+  ],
+  "author": "RealtyDistress",
+  "license": "UNLICENSED"
+}

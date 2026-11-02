@@ -1,0 +1,261 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "RealtyDistress API - US County Property Tax, Probate & Foreclosure Lead Router",
+    "description": "High-velocity commercial B2B PropTech REST API routing investors, wholesalers, and CRM pipelines directly to county tax delinquent portals, sheriff foreclosure auction calendars, probate court dockets, and GIS parcel viewers across all 3,143 US counties and parishes.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://realty-distress-api.vercel.app",
+      "description": "Production Vercel Edge Gateway"
+    }
+  ],
+  "paths": {
+    "/v1/distress/county": {
+      "get": {
+        "summary": "Master County Real Estate Distress Dossier",
+        "description": "Resolves any US State and County to a comprehensive distress routing dossier: direct tax delinquent lookup URL, sheriff sale foreclosure auction calendar, probate court docket search, property appraiser parcel search, GIS mapping portal, and 50-state statutory tax sale redemption rules.",
+        "operationId": "getCountyDistressDossier",
+        "parameters": [
+          {
+            "name": "state",
+            "in": "query",
+            "required": true,
+            "description": "US State name or 2-letter postal code (e.g. OH, Texas, Florida)",
+            "schema": { "type": "string" },
+            "example": "OH"
+          },
+          {
+            "name": "county",
+            "in": "query",
+            "required": true,
+            "description": "US County or Parish name (e.g. Montgomery, Harris, Miami-Dade, Cook)",
+            "schema": { "type": "string" },
+            "example": "Montgomery"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Comprehensive County Distress Dossier",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CountyDistressResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid State or County parameters"
+          }
+        }
+      }
+    },
+    "/v1/distress/probate": {
+      "get": {
+        "summary": "Probate Court & Estate Docket Router",
+        "description": "Resolves the designated county probate court, public case docket lookup portal, and statutory creditor notice windows for estate and inherited property prospecting.",
+        "operationId": "getProbateRouter",
+        "parameters": [
+          {
+            "name": "state",
+            "in": "query",
+            "required": true,
+            "description": "US State name or abbreviation",
+            "schema": { "type": "string" },
+            "example": "TX"
+          },
+          {
+            "name": "county",
+            "in": "query",
+            "required": true,
+            "description": "County name",
+            "schema": { "type": "string" },
+            "example": "Harris"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Probate court and estate records gateway",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/distress/property-search": {
+      "get": {
+        "summary": "County Auditor & GIS Parcel Search Router",
+        "description": "Returns direct links to the County Property Appraiser / Auditor real estate record search, GIS parcel map viewers, and parcel identification syntax.",
+        "operationId": "getPropertySearchRouter",
+        "parameters": [
+          {
+            "name": "state",
+            "in": "query",
+            "required": true,
+            "description": "US State name or abbreviation",
+            "schema": { "type": "string" },
+            "example": "FL"
+          },
+          {
+            "name": "county",
+            "in": "query",
+            "required": true,
+            "description": "County name",
+            "schema": { "type": "string" },
+            "example": "Miami-Dade"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "County property appraiser and GIS search links",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/distress/tax-sales": {
+      "get": {
+        "summary": "State Tax Sale Statutory Guide & Metro Index",
+        "description": "Retrieves state-wide tax sale legal framework: Tax Lien vs. Tax Deed auction mechanisms, statutory interest rates, statutory redemption periods, and mapped metropolitan counties.",
+        "operationId": "getStateTaxSaleGuide",
+        "parameters": [
+          {
+            "name": "state",
+            "in": "query",
+            "required": true,
+            "description": "US State name or abbreviation (e.g. OH, Texas, California)",
+            "schema": { "type": "string" },
+            "example": "OH"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "State statutory rules and metropolitan counties list",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/distress/statutes": {
+      "get": {
+        "summary": "50-State Statutory Tax Sale Rules Database",
+        "description": "Returns the complete 50-state database comparing tax lien vs. tax deed systems, redemption periods, penalty rates, and statutory citations nationwide.",
+        "operationId": "getAllStatutes",
+        "responses": {
+          "200": {
+            "description": "Complete 50-state statutory rules catalog",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/distress/stats": {
+      "get": {
+        "summary": "Coverage Metrics & System Statistics",
+        "description": "Returns nationwide coverage statistics covering 3,143 US counties, 3,284 mapped probate dockets, and state legal frameworks.",
+        "operationId": "getCoverageStats",
+        "responses": {
+          "200": {
+            "description": "Coverage statistics",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CountyDistressResponse": {
+        "type": "object",
+        "properties": {
+          "success": { "type": "boolean", "example": true },
+          "data": {
+            "type": "object",
+            "properties": {
+              "jurisdiction": {
+                "type": "object",
+                "properties": {
+                  "state": { "type": "string", "example": "Ohio" },
+                  "county": { "type": "string", "example": "Montgomery County" },
+                  "county_seat": { "type": "string", "example": "Dayton" },
+                  "metro_tier": { "type": "string", "example": "Major Metropolitan Area" }
+                }
+              },
+              "distress_gateways": {
+                "type": "object",
+                "properties": {
+                  "tax_delinquent_portal": {
+                    "type": "object",
+                    "properties": {
+                      "name": { "type": "string" },
+                      "url": { "type": "string", "example": "https://treasurer.mcohio.org/treasurer/delinquent_taxes.php" },
+                      "status": { "type": "string" }
+                    }
+                  },
+                  "sheriff_foreclosure_sale": {
+                    "type": "object",
+                    "properties": {
+                      "name": { "type": "string" },
+                      "url": { "type": "string", "example": "https://www.mcohio.org/government/elected_officials/sheriff/sheriff_sales.php" },
+                      "platform_vendor": { "type": "string", "example": "RealAuction" }
+                    }
+                  },
+                  "probate_records_court": {
+                    "type": "object",
+                    "properties": {
+                      "name": { "type": "string" },
+                      "official_court_url": { "type": "string", "example": "https://www.mcprobate.org/case-search.html" },
+                      "access_type": { "type": "string" }
+                    }
+                  },
+                  "property_appraiser_gis": {
+                    "type": "object",
+                    "properties": {
+                      "property_search_url": { "type": "string" },
+                      "gis_map_viewer_url": { "type": "string" },
+                      "parcel_format_sample": { "type": "string" }
+                    }
+                  }
+                }
+              },
+              "statutory_legal_rules": {
+                "type": "object",
+                "properties": {
+                  "state_tax_system": { "type": "string", "example": "Tax Foreclosure / Tax Certificate" },
+                  "auction_mechanism": { "type": "string" },
+                  "statutory_interest_rate": { "type": "string", "example": "Up to 18% per annum" },
+                  "redemption_period_duration": { "type": "string", "example": "1 year statutory redemption period" }
+                }
+              },
+              "wholesaler_action_strategy": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
