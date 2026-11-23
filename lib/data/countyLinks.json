@@ -857,7 +857,7 @@
  },
  "Arizona|Maricopa": {
   "sale_list_url": "https://maricopa.arizonataxsale.com/",
-  "delinquent_list_url": null,
+  "delinquent_list_url": "https://treasurer.maricopa.gov/TaxLienInformation/",
   "vendor": "RealAuction (RealTaxLien)",
   "login_needed_to_view": false,
   "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",

@@ -220,7 +220,7 @@
       "population": 4420568,
       "auditor_property_search_url": "https://mcassessor.maricopa.gov/",
       "gis_parcel_map_url": "https://maps.mcassessor.maricopa.gov/",
-      "tax_delinquent_search_url": "https://treasurer.maricopa.gov/Parcel/",
+      "tax_delinquent_search_url": "https://treasurer.maricopa.gov/TaxLienInformation/",
       "sheriff_sale_url": "https://www.maricopacountyproperties.org/",
       "probate_court_url": "https://superiorcourt.maricopa.gov/probate-and-mental-health/",
       "auction_platform_vendor": "RealAuction (Maricopa Tax Lien Sale)",
