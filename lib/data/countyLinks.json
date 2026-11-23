@@ -87,14 +87,6 @@
   "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in county legal organ and managed by Tax Commissioner",
   "checked": "2026-11-23"
  },
- "Georgia|Forsyth": {
-  "sale_list_url": "https://www.forsythco.com/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Forsyth County News & administered by Tax Commissioner Levy Office",
-  "checked": "2026-11-23"
- },
  "Georgia|Henry": {
   "sale_list_url": "https://henrycountytax.com/172/Property-for-Tax-Sale",
   "delinquent_list_url": null,
@@ -335,38 +327,6 @@
   "notes": "Once or twice yearly on first Tuesday at Tax Commissioner's discretion; Tax Sale List & Tax Sale Parcels posted on site",
   "checked": "2026-11-23"
  },
- "Georgia|Barrow": {
-  "sale_list_url": "https://www.barrowga.org/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Barrow News-Journal & handled by Tax Commissioner",
-  "checked": "2026-11-23"
- },
- "Georgia|Jackson": {
-  "sale_list_url": "https://www.jacksoncountygov.com/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Jackson Herald & handled by Tax Commissioner",
-  "checked": "2026-11-23"
- },
- "Georgia|Gordon": {
-  "sale_list_url": "https://www.gordoncountyga.gov/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Calhoun Times & handled by Tax Commissioner",
-  "checked": "2026-11-23"
- },
- "Georgia|Dougherty": {
-  "sale_list_url": "https://www.dougherty.ga.us/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Albany Herald & handled by Tax Commissioner",
-  "checked": "2026-11-23"
- },
  "Texas|Harris": {
   "sale_list_url": "https://www.hctax.net/Property/listings/taxsalelisting",
   "delinquent_list_url": null,
@@ -423,30 +383,6 @@
   "notes": "Annual spring delinquent tax foreclosure publication & clerk's deed sale of unredeemed properties",
   "checked": "2026-11-23"
  },
- "Alaska|Northwest Arctic Borough": {
-  "sale_list_url": "https://www.nwabor.org/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "No Borough-wide property tax levied (municipalities within borough handle local taxes/foreclosures if applicable)",
-  "checked": "2026-11-23"
- },
- "Alaska|Denali Borough": {
-  "sale_list_url": "https://www.denaliborough.org/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "No Borough real property tax levied; no annual borough tax foreclosure sale",
-  "checked": "2026-11-23"
- },
- "Alaska|Bristol Bay Borough": {
-  "sale_list_url": "https://www.bristolbayboroughak.us/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "Annual Borough delinquent property tax foreclosure notice & unredeemed parcel sale handled directly by Borough Finance/Clerk",
-  "checked": "2026-11-23"
- },
  "Alaska|Petersburg Borough": {
   "sale_list_url": "https://www.petersburgak.gov/finance",
   "delinquent_list_url": null,
@@ -461,22 +397,6 @@
   "vendor": "county site",
   "login_needed_to_view": false,
   "notes": "Annual spring foreclosure list & unredeemed property auction administered by Borough Finance Dept",
-  "checked": "2026-11-23"
- },
- "Alaska|Aleutians East Borough": {
-  "sale_list_url": "https://www.aleutianseast.org/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "No Borough-wide real property tax levied; no annual borough tax sale",
-  "checked": "2026-11-23"
- },
- "Alaska|Lake and Peninsula Borough": {
-  "sale_list_url": "https://www.lakeandpen.com/",
-  "delinquent_list_url": null,
-  "vendor": "county site",
-  "login_needed_to_view": false,
-  "notes": "No Borough-wide real property tax levied; no annual borough tax sale",
   "checked": "2026-11-23"
  },
  "Texas|Dallas": {
