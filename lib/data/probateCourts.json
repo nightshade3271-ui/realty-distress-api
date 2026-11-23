@@ -22062,9 +22062,9 @@
   {
     "state": "Ohio",
     "county": "Montgomery",
-    "court_name": "Probate Court",
-    "official_website_url": "https://www.mcclerkofcourts.org/",
-    "clerk_lookup_url": "https://pro.mcohio.org/",
+    "court_name": "Montgomery County Probate Court",
+    "official_website_url": "https://www.mcohio.org/1209/Probate-Court",
+    "clerk_lookup_url": "https://www.mcohio.org/161/Probate-Court-Case-Search",
     "platform_vendor": "Montgomery County PRO",
     "search_method": "Name, Case/Docket Number",
     "login_required": "None (Public)"
