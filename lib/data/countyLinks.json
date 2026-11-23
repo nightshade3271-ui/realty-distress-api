@@ -854,5 +854,77 @@
   "login_needed_to_view": false,
   "notes": "Census Pop Rank #328; Rolling judicial & 10-day upset-bid tax foreclosure sales (Kania Law Firm & Zacchaeus Legal Services); live Foreclosure Sales table with parcel owners, addresses, case numbers & sale dates posted on catawbacountync.gov",
   "checked": "2026-11-23"
+ },
+ "Arizona|Maricopa": {
+  "sale_list_url": "https://maricopa.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
+ },
+ "Arizona|Pima": {
+  "sale_list_url": "https://pima.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
+ },
+ "Arizona|Pinal": {
+  "sale_list_url": "https://pinal.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
+ },
+ "Arizona|Yavapai": {
+  "sale_list_url": "https://yavapai.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
+ },
+ "Arizona|Mohave": {
+  "sale_list_url": "https://mohave.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
+ },
+ "Arizona|Coconino": {
+  "sale_list_url": "https://coconino.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
+ },
+ "Arizona|Navajo": {
+  "sale_list_url": "https://navajo.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
+ },
+ "Arizona|Apache": {
+  "sale_list_url": "https://apache.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
+ },
+ "Arizona|Santa Cruz": {
+  "sale_list_url": "https://santacruz.arizonataxsale.com/",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction (RealTaxLien)",
+  "login_needed_to_view": false,
+  "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
+  "checked": "2026-11-23"
  }
 }
