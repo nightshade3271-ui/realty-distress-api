@@ -1,0 +1,858 @@
+{
+ "Delaware|New Castle": {
+  "sale_list_url": "https://www.newcastlede.gov/188/Sale-Lists",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Monthly Sheriff Sale (2nd Tuesday at 9:00 AM); direct PDF sale list & posters on county site; $10,000 certified funds required to register to bid",
+  "checked": "2026-11-23"
+ },
+ "Delaware|Kent": {
+  "sale_list_url": "https://www.kentcountyde.gov/My-Government/Departments/Sheriffs-Office",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Quarterly Monition Tax Sales (last Tuesday of Jan, Apr, Jul, Oct at 10:00 AM); Current Sales List posted on Sheriff page and updated 3x daily",
+  "checked": "2026-11-23"
+ },
+ "Delaware|Sussex": {
+  "sale_list_url": "https://sussexcountyde.gov/sheriff-sales",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Monthly Sheriff Sale (3rd Tuesday at 9:30 AM, includes tax monition & mortgage sales); 60-day redemption post-confirmation; $4,000 certified funds to register",
+  "checked": "2026-11-23"
+ },
+ "Indiana|Dearborn": {
+  "sale_list_url": "https://www.dearborncounty.org/topic/index.php?topicid=29&structureid=13",
+  "delinquent_list_url": "https://www.dearborncounty.org/topic/index.php?topicid=29&structureid=13",
+  "vendor": "SRI",
+  "login_needed_to_view": false,
+  "notes": "Annual Sept/Oct tax sale (Sept 17 in 2026); list posted on county site & run by SRI (remaining IN counties skipped—SRI runs bulk of IN)",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Gwinnett": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.gwinnetttaxcommissioner.com/property-tax/delinquent-tax/delinquent-tax-list",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday of month (when scheduled); full delinquent account list updated frequently on site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Fulton": {
+  "sale_list_url": "https://fultoncountyga.gov/inside-fulton-county/fulton-county-departments/sheriff/tax-sales",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday of month (when scheduled); Sheriff posts levy sale PDFs several weeks ahead",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Cobb": {
+  "sale_list_url": "https://www.cobbtax.gov/property/tax_sale/index.php",
+  "delinquent_list_url": "https://www.cobbtax.gov/property/delinquent_taxes/index.php",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday of scheduled months (10 AM–4 PM at Superior Court Plaza); sale list posted 4 weeks ahead; delinquent tax list updated monthly",
+  "checked": "2026-11-23"
+ },
+ "Georgia|DeKalb": {
+  "sale_list_url": "https://dekalbtaxga.gov/property-tax/tax-sales/",
+  "delinquent_list_url": "https://dekalbtaxga.gov/property-tax/delinquent-taxes/",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Monthly first Tuesday sales (generally Apr–Dec); Tax Sale Property Listings & 7-year Delinquent Property Listings posted on Tax Commissioner site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Chatham": {
+  "sale_list_url": "https://tax.chathamcountyga.gov/TaxSaleList",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday of scheduled months (10 AM–4 PM at Savannah Civic Center); sale list PDFs posted directly on Tax Commissioner page",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Clayton": {
+  "sale_list_url": "https://publicaccess.claytoncountyga.gov/content/PDF/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday monthly sales; monthly tax sale listing PDFs published directly in publicaccess PDF repository",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Cherokee": {
+  "sale_list_url": "https://www.cherokeecountyga.gov/tax-assessors-office/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in county legal organ and managed by Tax Commissioner",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Forsyth": {
+  "sale_list_url": "https://www.forsythco.com/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Forsyth County News & administered by Tax Commissioner Levy Office",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Henry": {
+  "sale_list_url": "https://henrycountytax.com/172/Property-for-Tax-Sale",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday of month at 10:00 AM (140 Henry Pkwy, McDonough); judicial in-rem & mobile home tax sale lists posted directly on site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Richmond": {
+  "sale_list_url": "http://appweb2.augustaga.gov/TaxLevySales/Web/TaxLevySales.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday monthly tax levy sales; live HTML parcel listing table published on Augusta-Richmond County Tax Commissioner site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Muscogee": {
+  "sale_list_url": "https://columbusga.gov/taxcommissioner/Delinquent-Tax",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday monthly tax sales; Tax Sale List & Tax Sale Class Registration posted on Columbus Consolidated Gov Tax Commissioner page",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Bibb": {
+  "sale_list_url": "https://www.maconbibbtax.us/tax-sales.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday monthly & Judicial In-Rem tax sales; interactive property map, parcel list PDF, and brochure posted on Macon-Bibb Tax site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Hall": {
+  "sale_list_url": "https://hallcountytax.org/property/tax-sale/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday of selected months; sale notice & parcel list posted 4 weeks prior on Tax Commissioner site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Paulding": {
+  "sale_list_url": "https://www.paulding.gov/1149/Tax-Sale-Accounts",
+  "delinquent_list_url": "https://www.paulding.gov/1054/Previously-Advertised-Parcel-List",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday sales; Tax Sale Accounts page plus regularly updated Previously Advertised Unsold Parcel List on county site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Coweta": {
+  "sale_list_url": "https://www.cowetataxcom.com/tax-sales.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday sales (when scheduled); Tax Sale List & registration form posted directly on Tax Commissioner page",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Houston": {
+  "sale_list_url": "https://www.houstoncountytax.com/tax-sales.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday sales (10:30–11:00 AM in Perry); downloadable Tax Sale List & bidder registration form posted 4 weeks ahead",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Columbia": {
+  "sale_list_url": "https://www.columbiacountyga.gov/186/Delinquent-Taxes",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday of scheduled months; sale info posted on county Delinquent Taxes page & advertised 1 month prior in Augusta Chronicle",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Clarke": {
+  "sale_list_url": "https://www.accgov.com/1719/Tax-Sales",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday sales (public outcry); direct Online Tax Sale List PDF linked on Athens-Clarke County Tax Sales page",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Lowndes": {
+  "sale_list_url": "https://www.lowndescounty.com/166/Delinquent-Tax",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday of month (when needed) on Valdosta courthouse steps; sale notices posted on county page & Valdosta Daily Times",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Douglas": {
+  "sale_list_url": "https://www.douglastax.org/property-tax-sales",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday sales; full parcel-by-parcel tax sale table (map/parcel, owner, amount due, legal description) posted directly on site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Carroll": {
+  "sale_list_url": "https://carrollcountygatax.com/tax-sales-2/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday sales; Delinquent Tax Sale Information & Excess Funds lists posted on Tax Commissioner site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Fayette": {
+  "sale_list_url": "https://www.fayettecountypay.com/tax-sales.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Annual/scheduled first Tuesday non-judicial tax sale; downloadable Word parcel list & booklet posted on Tax Commissioner site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Newton": {
+  "sale_list_url": "https://newtoncountytax.com/tax-sale-listing/",
+  "delinquent_list_url": "https://newtoncountytax.com/property_tax/delinquent-tax-bills/",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Selected first Tuesday sales; Tax Sale Listing plus quarterly (Jan/Apr/Jul/Oct) downloadable Excel & PDF Delinquent Tax Bills list",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Rockdale": {
+  "sale_list_url": "https://rockdaletaxoffice.org/property-tax-sales",
+  "delinquent_list_url": "https://rockdaletaxoffice.org/property-tax-sales",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday sales (10:00 AM at J.P. Carr Community Center); downloadable Tax Sale Properties & Delinquent Tax Files on page",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Walton": {
+  "sale_list_url": "https://tax.waltoncountypay.com/tax-sales.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "As-needed first Tuesday sales; Real Property & Mobile Home Tax Sale Lists posted ~6 weeks ahead and updated weekly",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Floyd": {
+  "sale_list_url": "https://www.floydcountytax.com/news.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday sales; tax sale dates & listings posted via Tax Commissioner News page",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Glynn": {
+  "sale_list_url": "https://www.glynntaxoffice.org/property/delinquent_tax/index.php",
+  "delinquent_list_url": null,
+  "vendor": "GovEase",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday online auctions via GovEase ($35 app fee + refundable deposit); parcel list posted on Tax Commissioner page prior to sale",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Bartow": {
+  "sale_list_url": "https://www.bartowcountyga.gov/departments/tax_commissioner/index.php",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Daily Tribune News & administered by Tax Commissioner",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Bulloch": {
+  "sale_list_url": "https://bullochcounty.net/tax-sale-listing/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Once or twice yearly on first Tuesday (10 AM–4 PM at Bulloch County Annex, Statesboro); Tax Sale Listing & pre-registration link posted on site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Troup": {
+  "sale_list_url": "https://www.troupcountytax.com/excess-funds.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday non-judicial tax sales (100 Ridley Ave, LaGrange); monthly Tax Sale List PDFs posted on Tax Commissioner site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Whitfield": {
+  "sale_list_url": "https://www.whitfieldpay.com/tax-sales.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Annual sale on first Tuesday in October at 10:00 AM; advertised 4 weeks prior in Dalton Daily Citizen or requested via wctco@whitfieldcountyga.com",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Walker": {
+  "sale_list_url": "https://walkercountytax.com/tax-sales/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday courthouse tax deed sales; Delinquent Tax Sale notices & Excess Funds lists posted on Tax Commissioner page",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Camden": {
+  "sale_list_url": "https://www.co.camden.ga.us/87/Tax-Sale",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday tax sales; downloadable Tax Sale List PDF, conditions & Tax Sale Calendar posted on county site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Bryan": {
+  "sale_list_url": "https://www.bryancountyga.gov/government/departments-h-z/tax-commissioner/tax-sale-information",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday sales (10 AM–4 PM at Pembroke courthouse steps); Tax Sale List posted on site & advance registration via GTS",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Effingham": {
+  "sale_list_url": "https://www.effinghamcounty.org/920/Property-Tax-Sale",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday sales (10 AM–4 PM at 804 S. Laurel St, Springfield); full parcel-by-parcel Sheriff's Tax Sale listing posted directly on page",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Spalding": {
+  "sale_list_url": "https://spaldingcountytaxga.com/tax-sales/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday sales (10:00–10:30 AM at 411 E. Solomon St, Griffin); real property & mobile home tax sale PDF lists posted on site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Liberty": {
+  "sale_list_url": "https://libertycountygatax.com/tax-sales/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled first Tuesday sales; Tax Sale Announcements & downloadable property lists posted on Tax Commissioner site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Thomas": {
+  "sale_list_url": "https://www.thomascountytax.com/tax-sales.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Once or twice yearly on first Tuesday at Tax Commissioner's discretion; Tax Sale List & Tax Sale Parcels posted on site",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Barrow": {
+  "sale_list_url": "https://www.barrowga.org/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Barrow News-Journal & handled by Tax Commissioner",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Jackson": {
+  "sale_list_url": "https://www.jacksoncountygov.com/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Jackson Herald & handled by Tax Commissioner",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Gordon": {
+  "sale_list_url": "https://www.gordoncountyga.gov/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Calhoun Times & handled by Tax Commissioner",
+  "checked": "2026-11-23"
+ },
+ "Georgia|Dougherty": {
+  "sale_list_url": "https://www.dougherty.ga.us/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "First Tuesday courthouse tax deed sales (as needed); advertised 4 weeks prior in Albany Herald & handled by Tax Commissioner",
+  "checked": "2026-11-23"
+ },
+ "Texas|Harris": {
+  "sale_list_url": "https://www.hctax.net/Property/listings/taxsalelisting",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Monthly first Tuesday tax deed auction; live property listing table on Tax Office site",
+  "checked": "2026-11-23"
+ },
+ "Texas|Travis": {
+  "sale_list_url": "https://tax-office.traviscountytx.gov/properties/foreclosed",
+  "delinquent_list_url": "https://www.traviscountytx.gov/open-data-portal/delinquent-parcels",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Monthly first Tuesday auction; open data portal provides full interactive delinquent parcel roll",
+  "checked": "2026-11-23"
+ },
+ "North Carolina|Wake": {
+  "sale_list_url": "https://www.wake.gov/departments-government/tax-administration/real-estate/foreclosures",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Rolling judicial tax foreclosure sales; active foreclosure parcel list updated continuously on site",
+  "checked": "2026-11-23"
+ },
+ "Tennessee|Davidson": {
+  "sale_list_url": "https://chanceryclerkandmaster.nashville.gov/fees/property-tax-schedule/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Scheduled periodic in-person Chancery Court sales; sale lists & excess proceeds linked on schedule page",
+  "checked": "2026-11-23"
+ },
+ "Missouri|St. Louis County": {
+  "sale_list_url": "https://stlouiscountymo.gov/st-louis-county-departments/revenue/collector-of-revenue/real-property-tax-sale/",
+  "delinquent_list_url": "https://stlouiscountymo.gov/st-louis-county-departments/revenue/collector-of-revenue/post-third-sale-offerings/",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Annual fourth Monday in August; Post-Third Sale over-the-counter delinquent inventory posted year-round",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Juneau, City and Borough of": {
+  "sale_list_url": "https://juneau.org/finance/property-tax",
+  "delinquent_list_url": "https://juneau.org/finance/property-tax",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Annual judicial tax foreclosure roll posted by Finance Dept; unredeemed properties sold via municipal sealed-bid or outcry auction",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Kodiak Island Borough": {
+  "sale_list_url": "https://www.kodiakak.us/185/Property-Tax",
+  "delinquent_list_url": "https://www.kodiakak.us/185/Property-Tax",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Annual spring delinquent tax foreclosure publication & clerk's deed sale of unredeemed properties",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Northwest Arctic Borough": {
+  "sale_list_url": "https://www.nwabor.org/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "No Borough-wide property tax levied (municipalities within borough handle local taxes/foreclosures if applicable)",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Denali Borough": {
+  "sale_list_url": "https://www.denaliborough.org/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "No Borough real property tax levied; no annual borough tax foreclosure sale",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Bristol Bay Borough": {
+  "sale_list_url": "https://www.bristolbayboroughak.us/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Annual Borough delinquent property tax foreclosure notice & unredeemed parcel sale handled directly by Borough Finance/Clerk",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Petersburg Borough": {
+  "sale_list_url": "https://www.petersburgak.gov/finance",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Annual delinquent tax foreclosure roll published by Finance Dept; 1-year redemption prior to municipal sale",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Wrangell, City and Borough of": {
+  "sale_list_url": "https://www.wrangell.com/finance",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Annual spring foreclosure list & unredeemed property auction administered by Borough Finance Dept",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Aleutians East Borough": {
+  "sale_list_url": "https://www.aleutianseast.org/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "No Borough-wide real property tax levied; no annual borough tax sale",
+  "checked": "2026-11-23"
+ },
+ "Alaska|Lake and Peninsula Borough": {
+  "sale_list_url": "https://www.lakeandpen.com/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "No Borough-wide real property tax levied; no annual borough tax sale",
+  "checked": "2026-11-23"
+ },
+ "Texas|Dallas": {
+  "sale_list_url": "https://www.dallascounty.org/departments/pubworks/property-division.php",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #8; Monthly 1st Tuesday online Sheriff tax foreclosure auctions via RealForeclose/RealAuction; Dallas County Public Works Property Division page links Tax Sale Properties and resale listings",
+  "checked": "2026-11-23"
+ },
+ "New York|Kings": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.nyc.gov/site/finance/property/property-lien-sales-archive.page",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #9 (Brooklyn, NYC); NYC Dept. of Finance holds periodic municipal tax lien sales (sold to single authorized trust, not public bidding); full published Lien Sale Lists (2025, 2021, 2019) posted on NYC DOF archive page",
+  "checked": "2026-11-23"
+ },
+ "Nevada|Clark": {
+  "sale_list_url": "https://treasurer.clarkcountynv.gov/auction/Auction/AuctionList",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #11; Annual spring (May) Clark County Treasurer Trustee real property tax auction; live AuctionList table on Treasurer portal lists parcels up for sale",
+  "checked": "2026-11-23"
+ },
+ "New York|Queens": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.nyc.gov/site/finance/property/property-lien-sales-archive.page",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #12 (Queens, NYC); NYC Dept. of Finance periodic tax lien sale (sold to single authorized trust); full published Lien Sale Lists posted on NYC DOF archive page",
+  "checked": "2026-11-23"
+ },
+ "Washington|King": {
+  "sale_list_url": "https://king.wa.realforeclose.com",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #13; Annual September online tax foreclosure auction (Sept 9 in 2026) run on King County's RealForeclose/RealAuction portal",
+  "checked": "2026-11-23"
+ },
+ "Texas|Tarrant": {
+  "sale_list_url": "https://www.tarrantcountytx.gov/en/constables/constable-3/delinquent-tax-sales/monthly-tax-sales-listings/december-1--2026.html",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #14; Monthly 1st Tuesday in-person Constable Pct. 3 tax deed auctions; monthly property table with cause/account numbers & sale status posted directly on Tarrant County site (also via lgbs.com)",
+  "checked": "2026-11-23"
+ },
+ "Texas|Bexar": {
+  "sale_list_url": "https://www.bexar.org/DocumentCenter/View/41852/Bexar-County-Resale-Properties-Distribution-List",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #16; Monthly 1st Tuesday courthouse tax deed auctions; official Bexar County Resale Properties PDF list & GIS foreclosure map (maps.bexar.org/foreclosures/) posted directly on county site (also via taxsales.lgbs.com)",
+  "checked": "2026-11-23"
+ },
+ "Michigan|Wayne": {
+  "sale_list_url": "https://waynecountytreasurermi.com/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #19; Annual September & October online tax-foreclosure auctions run directly on Wayne County Treasurer's auction portal (waynecountytreasurermi.com) with live parcel counts & listings",
+  "checked": "2026-11-23"
+ },
+ "New York|New York": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.nyc.gov/site/finance/property/property-lien-sales-archive.page",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #21 (Manhattan, NYC); NYC Dept. of Finance periodic tax lien sale (sold to single authorized trust); full published Lien Sale Lists posted on NYC DOF archive page",
+  "checked": "2026-11-23"
+ },
+ "Pennsylvania|Philadelphia": {
+  "sale_list_url": "https://www.bid4assets.com/philaforeclosures",
+  "delinquent_list_url": null,
+  "vendor": "Bid4Assets",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #25; Monthly online Sheriff tax foreclosure auctions run via Bid4Assets with downloadable Real Property List by sale date (linked from phillysheriff.com/property-listing/)",
+  "checked": "2026-11-23"
+ },
+ "New York|Bronx": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.nyc.gov/site/finance/property/property-lien-sales-archive.page",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #29 (Bronx, NYC); NYC Dept. of Finance periodic tax lien sale (sold to single authorized trust); full published Lien Sale Lists posted on NYC DOF archive page",
+  "checked": "2026-11-23"
+ },
+ "Texas|Collin": {
+  "sale_list_url": "https://apps2.collincountytx.gov/ForeclosureNotices",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #33; Monthly 1st Tuesday courthouse steps Constable tax sales (McKinney); live searchable ForeclosureNotices database on Collin County portal displays scheduled sale addresses & dates",
+  "checked": "2026-11-23"
+ },
+ "Virginia|Fairfax": {
+  "sale_list_url": "https://taxva.com/rs-tax-sales/fairfax-county-real-estate-tax-sale/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #42; Periodic judicial real estate tax auctions administered by outside counsel TACS (Taxing Authority Consulting Services); public parcel table with Tax Map IDs & status posted on TACS Fairfax sale page",
+  "checked": "2026-11-23"
+ },
+ "Texas|Denton": {
+  "sale_list_url": "https://www.dentoncounty.gov/294/Foreclosure-Sale-Property-Search",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #46; Monthly 1st Tuesday Sheriff/Constable tax sales (online via GovEase & courthouse); monthly foreclosure/sale postings viewable on Denton County Property Records Search",
+  "checked": "2026-11-23"
+ },
+ "Texas|Fort Bend": {
+  "sale_list_url": "https://www.fortbendcountytx.gov/government/departments/constables/constable-precinct-1/property-sales",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #51; Monthly 1st Tuesday Constable tax sales at 1521 Eugene Heimann Cir, Richmond; Constable Pct. 1 & Pct. 3 pages publish live Property Sale Notices tables by sale date",
+  "checked": "2026-11-23"
+ },
+ "Wisconsin|Milwaukee": {
+  "sale_list_url": "https://county.milwaukee.gov/EN/Administrative-Services/Economic-Development/Foreclosed-Properties/Listings",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #64; In-rem tax-foreclosed properties sold via sealed-bid/offer on Milwaukee County DAS Real Estate Listings page (live property addresses & offer deadlines posted)",
+  "checked": "2026-11-23"
+ },
+ "Texas|El Paso": {
+  "sale_list_url": "https://www.epcounty.com/1192/Sheriff-Sales",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #73; Monthly 1st Tuesday Sheriff & Constable tax deed sales; live Real Estate Property Sale Notices table on epcounty.com (tax sale listings posted 15th of each month)",
+  "checked": "2026-11-23"
+ },
+ "Oregon|Multnomah": {
+  "sale_list_url": "https://multco.us/programs/tax-title",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #74; Periodic Tax Title public auctions & broker sales (Oct 12 & Dec 2, 2026); Tax Title Inventory & auction property flier PDFs posted directly on multco.us",
+  "checked": "2026-11-23"
+ },
+ "Oklahoma|Oklahoma": {
+  "sale_list_url": "https://docs.oklahomacounty.org/treasurer/ResaleActiveList.asp",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #76; Annual June Tax Resale & ongoing County-Owned Properties sale run by Oklahoma County Treasurer; live ResaleActiveList table posted on county site",
+  "checked": "2026-11-23"
+ },
+ "Oklahoma|Tulsa": {
+  "sale_list_url": "https://www2.tulsacounty.org/treasurer/properties-for-sale/county-properties/properties-for-sale-list/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #84; Annual June Real Estate Tax Resale & ongoing County-Owned Properties lobby auctions; live Properties for Sale List table posted on Tulsa County Treasurer site",
+  "checked": "2026-11-23"
+ },
+ "Pennsylvania|Montgomery": {
+  "sale_list_url": "https://assets.montgomerycountypa.gov/files/2026-11/2026%20Continued%20Upset%20Sale%20List%2011.09.26.pdf",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #88; Annual September Upset Sale, August Judicial Sale & December Continued Sale (Dec 10 in 2026) in-person at Norristown Courthouse; official parcel list PDF posted on montgomerycountypa.gov",
+  "checked": "2026-11-23"
+ },
+ "New York|Richmond": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.nyc.gov/site/finance/property/property-lien-sales-archive.page",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #89 (Staten Island, NYC); NYC Dept. of Finance periodic tax lien sale (sold to single authorized trust); full published Lien Sale Lists posted on NYC DOF archive page",
+  "checked": "2026-11-23"
+ },
+ "South Carolina|Greenville": {
+  "sale_list_url": "https://www.greenvillecounty.org/appsas400/taxsale/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #102; Annual October in-person Delinquent Tax Sale (Oct 19–20 in 2026) at Greenville Convention Center; live searchable AS400 Tax Sale List updated weekly on greenvillecounty.org",
+  "checked": "2026-11-23"
+ },
+ "Wisconsin|Dane": {
+  "sale_list_url": "https://treasurer.danecounty.gov/taxdeedauction",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #105; Spring (Apr/May) & Fall (Oct/Nov) sealed-bid Tax Deed Auctions; live Available Parcels table with minimum bids & bid forms posted on treasurer.danecounty.gov 6 weeks prior",
+  "checked": "2026-11-23"
+ },
+ "Minnesota|Ramsey": {
+  "sale_list_url": "https://xnet.co.ramsey.mn.us/prr/tfl/purchase.aspx",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #113; Periodic Tax-Forfeited Land online auctions (via MNBid.mn.gov) & ongoing Over-the-Counter sales; live table of Parcels Available For Immediate Purchase posted on co.ramsey.mn.us",
+  "checked": "2026-11-23"
+ },
+ "North Carolina|Guilford": {
+  "sale_list_url": "https://foreclosures.guilfordcountync.gov/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #123; Rolling judicial & upset-bid tax foreclosure sales (Zacchaeus Legal Services); live interactive Foreclosures Dashboard on guilfordcountync.gov lists parcels in Notice of Sale & Upset Bid",
+  "checked": "2026-11-23"
+ },
+ "South Carolina|Richland": {
+  "sale_list_url": "https://www.richlandcountysc.gov/Property-Business/Taxes/Delinquent-Taxes/Forfeited-Land-Available",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #126; Annual November Delinquent Tax Sale (Nov 2 in 2026) & quarterly Forfeited Land Commission (FLC) sealed-bid sales (Dec 1–15 in 2026); downloadable XLSX FLC Properties Listing & Delinquent Tax Map on richlandcountysc.gov",
+  "checked": "2026-11-23"
+ },
+ "South Carolina|Charleston": {
+  "sale_list_url": "https://www.charlestoncounty.org/departments/delinquent-tax/files/RP-Tax-Sale-Listing.xlsx?v=1",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #127; Annual December Delinquent Tax Sale (first Monday in Dec); official weekly-updated Real Property Tax Sale Listing XLSX posted directly on charlestoncounty.org",
+  "checked": "2026-11-23"
+ },
+ "Tennessee|Knox": {
+  "sale_list_url": "https://trustee.knoxcounty.org/assets/pdfs/TS25_Website%20Listing_6_1_26.pdf",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #130; Annual June Chancery Court Delinquent Tax Sale (June 2 in 2026 at The Grande Event Center); official parcel listing PDF posted on trustee.knoxcounty.org",
+  "checked": "2026-11-23"
+ },
+ "Kansas|Sedgwick": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.sedgwickcounty.org/treasurer/delinquent-tax-lists/",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #138; Periodic judicial tax foreclosure auctions (interactive mapping app at sedgwickcounty.org/treasurer/tax-foreclosure-auctions/); Real Estate Delinquent Publication List posted on Treasurer Delinquent Tax Listing page",
+  "checked": "2026-11-23"
+ },
+ "Washington|Spokane": {
+  "sale_list_url": "https://cp.spokanecounty.org/treasurer/foreclosures/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #139; Annual real property tax foreclosure auction conducted by Spokane County Treasurer; live clickable list of parcels currently in tax foreclosure posted at cp.spokanecounty.org/treasurer/foreclosures/",
+  "checked": "2026-11-23"
+ },
+ "Virginia|Virginia Beach": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://data.virginiabeach.gov/datasets/VBgov::delinquent-real-estate-taxes",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #146 (Independent City); Periodic judicial real estate tax auctions administered via TACS (taxva.com); full live table of delinquent real estate taxes published on City of Virginia Beach Open Data portal",
+  "checked": "2026-11-23"
+ },
+ "Pennsylvania|York": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://yorkcountypa.gov/523/Delinquent-Tax-Information-Payment",
+  "vendor": "GovEase",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #163; Annual June Judicial Sale & September Upset Sale (Sept 17 in 2026) run online via GovEase; daily updated Delinquent Tax Claim Listing PDF linked on yorkcountypa.gov",
+  "checked": "2026-11-23"
+ },
+ "North Carolina|Forsyth": {
+  "sale_list_url": "https://forsyth.cc/tax/foreclosure_prop.aspx",
+  "delinquent_list_url": "https://forsyth.cc/tax/advertisement.aspx",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #191; Rolling judicial & 10-day upset-bid tax foreclosure sales; live Property Tax Foreclosure Sales table (addresses, PINs, tax values, sale dates) & Tax Lien Advertisements posted directly on forsyth.cc",
+  "checked": "2026-11-23"
+ },
+ "South Carolina|Spartanburg": {
+  "sale_list_url": "https://www.spartanburgcounty.org/DocumentCenter/View/11161/Real-Property-Tax-Sale-List-PDF",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #195; Annual December Delinquent Tax Sale (Dec 8–9 in 2026); official Real Property Tax Sale List PDF posted directly on spartanburgcounty.gov/640/2026-Tax-Sale-Info",
+  "checked": "2026-11-23"
+ },
+ "Texas|Galveston": {
+  "sale_list_url": "https://sheriff.galvestoncountytx.gov/Forms/sale/sheriff_sale.pdf",
+  "delinquent_list_url": null,
+  "vendor": "RealAuction",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #199; Monthly 1st Tuesday online Sheriff tax foreclosure auctions via RealAuction; live Sheriff Sale PDF listing properties, cause numbers & minimum bids posted directly on sheriff.galvestoncountytx.gov",
+  "checked": "2026-11-23"
+ },
+ "Wisconsin|Waukesha": {
+  "sale_list_url": "https://www.waukeshacounty.gov/sheriff/foreclosure-sales/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #201; Wednesday morning open-outcry Sheriff foreclosure sales at 515 W. Moreland Blvd; live Upcoming Foreclosure Sales schedule with case numbers & party names posted on waukeshacounty.gov",
+  "checked": "2026-11-23"
+ },
+ "North Carolina|Durham": {
+  "sale_list_url": "https://dconc.gov/Tax-Administration/Payment-Options-and-Collections/Foreclosure",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #204; Rolling judicial tax foreclosure sales under NCGS 105-374 at 510 Dillard St; live Foreclosures for Auction table & Delinquent Taxpayer List link posted on dconc.gov",
+  "checked": "2026-11-23"
+ },
+ "North Carolina|Buncombe": {
+  "sale_list_url": "https://www.buncombecounty.org/common/tax/foreclosure-listings/fcl.pdf",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #210; Rolling judicial & 10-day upset-bid tax foreclosure sales; direct official Tax Foreclosure Sales PDF list posted on buncombecounty.org",
+  "checked": "2026-11-23"
+ },
+ "Washington|Thurston": {
+  "sale_list_url": "https://www.thurstoncountywa.gov/departments/treasurer/real-property-foreclosure-tax-sale-information",
+  "delinquent_list_url": null,
+  "vendor": "Bid4Assets",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #214; Annual online real property tax foreclosure auction via Bid4Assets; official 2026 Property Tax Foreclosure List linked directly on thurstoncountywa.gov",
+  "checked": "2026-11-23"
+ },
+ "Wisconsin|Brown": {
+  "sale_list_url": "https://www.browncountywi.gov/services/sheriff-sales/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #219; Bi-weekly Wednesday Sheriff foreclosure sales in Green Bay; live property address & date schedule posted directly on browncountywi.gov/services/sheriff-sales/",
+  "checked": "2026-11-23"
+ },
+ "North Carolina|New Hanover": {
+  "sale_list_url": "https://www.nhcgov.com/345/Foreclosures",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #225; Rolling judicial & 10-day upset-bid tax foreclosure sales in Wilmington (Kania Law Firm); live parcel numbers, civil case numbers & sale dates posted on nhcgov.com/345/Foreclosures",
+  "checked": "2026-11-23"
+ },
+ "Minnesota|St. Louis": {
+  "sale_list_url": "https://www.stlouiscountymn.gov/departments-a-z/land-minerals/sales-and-contracts/tax-forfeited-land-sales",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #262; Periodic online Tax-Forfeited Land auctions (via Public Surplus) & ongoing Over-the-Counter sales; live Auction Lists & Available Property Booklets posted on stlouiscountymn.gov",
+  "checked": "2026-11-23"
+ },
+ "North Carolina|Pitt": {
+  "sale_list_url": "https://www.pittcountync.gov/1165/Tax-Auction-Listings",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #267; Rolling judicial & 10-day upset-bid tax foreclosure sales on Greenville courthouse steps; live Tax Auction Listings table with parcel numbers, addresses & amounts owed posted on pittcountync.gov",
+  "checked": "2026-11-23"
+ },
+ "Nebraska|Lancaster": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.lancaster.ne.gov/849/Tax-Delinquency-Listing",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #270; Annual 1st Monday in March tax lien sale in Lincoln; weekly updated Advertised Delinquent Real Estate Taxes & Special Assessments PDFs posted on lancaster.ne.gov",
+  "checked": "2026-11-23"
+ },
+ "Nebraska|Sarpy": {
+  "sale_list_url": null,
+  "delinquent_list_url": "https://www.sarpy.gov/981/Tax-Sale-Information",
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #272; Annual 1st Monday in March tax lien sale in Papillion (March 2 in 2026); published delinquent tax list linked directly on sarpy.gov/981/Tax-Sale-Information",
+  "checked": "2026-11-23"
+ },
+ "North Carolina|Catawba": {
+  "sale_list_url": "https://www.catawbacountync.gov/county-services/tax/online-search/search-foreclosure-sales/",
+  "delinquent_list_url": null,
+  "vendor": "county site",
+  "login_needed_to_view": false,
+  "notes": "Census Pop Rank #328; Rolling judicial & 10-day upset-bid tax foreclosure sales (Kania Law Firm & Zacchaeus Legal Services); live Foreclosure Sales table with parcel owners, addresses, case numbers & sale dates posted on catawbacountync.gov",
+  "checked": "2026-11-23"
+ }
+}
