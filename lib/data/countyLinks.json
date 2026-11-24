@@ -28,7 +28,7 @@
   "delinquent_list_url": "https://www.dearborncounty.org/topic/index.php?topicid=29&structureid=13",
   "vendor": "SRI",
   "login_needed_to_view": false,
-  "notes": "Annual Sept/Oct tax sale (Sept 17 in 2026); list posted on county site & run by SRI (remaining IN counties skipped—SRI runs bulk of IN)",
+  "notes": "Annual Sept/Oct tax sale (Sept 17 in 2026); list posted on county site & run by SRI (remaining IN counties skipped\u2014SRI runs bulk of IN)",
   "checked": "2026-11-23"
  },
  "Georgia|Gwinnett": {
@@ -52,7 +52,7 @@
   "delinquent_list_url": "https://www.cobbtax.gov/property/delinquent_taxes/index.php",
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "First Tuesday of scheduled months (10 AM–4 PM at Superior Court Plaza); sale list posted 4 weeks ahead; delinquent tax list updated monthly",
+  "notes": "First Tuesday of scheduled months (10 AM\u20134 PM at Superior Court Plaza); sale list posted 4 weeks ahead; delinquent tax list updated monthly",
   "checked": "2026-11-23"
  },
  "Georgia|DeKalb": {
@@ -60,7 +60,7 @@
   "delinquent_list_url": "https://dekalbtaxga.gov/property-tax/delinquent-taxes/",
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "Monthly first Tuesday sales (generally Apr–Dec); Tax Sale Property Listings & 7-year Delinquent Property Listings posted on Tax Commissioner site",
+  "notes": "Monthly first Tuesday sales (generally Apr\u2013Dec); Tax Sale Property Listings & 7-year Delinquent Property Listings posted on Tax Commissioner site",
   "checked": "2026-11-23"
  },
  "Georgia|Chatham": {
@@ -68,7 +68,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "First Tuesday of scheduled months (10 AM–4 PM at Savannah Civic Center); sale list PDFs posted directly on Tax Commissioner page",
+  "notes": "First Tuesday of scheduled months (10 AM\u20134 PM at Savannah Civic Center); sale list PDFs posted directly on Tax Commissioner page",
   "checked": "2026-11-23"
  },
  "Georgia|Clayton": {
@@ -148,7 +148,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "Scheduled first Tuesday sales (10:30–11:00 AM in Perry); downloadable Tax Sale List & bidder registration form posted 4 weeks ahead",
+  "notes": "Scheduled first Tuesday sales (10:30\u201311:00 AM in Perry); downloadable Tax Sale List & bidder registration form posted 4 weeks ahead",
   "checked": "2026-11-23"
  },
  "Georgia|Columbia": {
@@ -252,7 +252,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "Once or twice yearly on first Tuesday (10 AM–4 PM at Bulloch County Annex, Statesboro); Tax Sale Listing & pre-registration link posted on site",
+  "notes": "Once or twice yearly on first Tuesday (10 AM\u20134 PM at Bulloch County Annex, Statesboro); Tax Sale Listing & pre-registration link posted on site",
   "checked": "2026-11-23"
  },
  "Georgia|Troup": {
@@ -292,7 +292,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "Scheduled first Tuesday sales (10 AM–4 PM at Pembroke courthouse steps); Tax Sale List posted on site & advance registration via GTS",
+  "notes": "Scheduled first Tuesday sales (10 AM\u20134 PM at Pembroke courthouse steps); Tax Sale List posted on site & advance registration via GTS",
   "checked": "2026-11-23"
  },
  "Georgia|Effingham": {
@@ -300,7 +300,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "First Tuesday sales (10 AM–4 PM at 804 S. Laurel St, Springfield); full parcel-by-parcel Sheriff's Tax Sale listing posted directly on page",
+  "notes": "First Tuesday sales (10 AM\u20134 PM at 804 S. Laurel St, Springfield); full parcel-by-parcel Sheriff's Tax Sale listing posted directly on page",
   "checked": "2026-11-23"
  },
  "Georgia|Spalding": {
@@ -308,7 +308,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "Scheduled first Tuesday sales (10:00–10:30 AM at 411 E. Solomon St, Griffin); real property & mobile home tax sale PDF lists posted on site",
+  "notes": "Scheduled first Tuesday sales (10:00\u201310:30 AM at 411 E. Solomon St, Griffin); real property & mobile home tax sale PDF lists posted on site",
   "checked": "2026-11-23"
  },
  "Georgia|Liberty": {
@@ -329,11 +329,12 @@
  },
  "Texas|Harris": {
   "sale_list_url": "https://www.hctax.net/Property/listings/taxsalelisting",
-  "delinquent_list_url": null,
+  "delinquent_list_url": "https://www.hctax.net/Property/PropertyTax",
   "vendor": "county site",
   "login_needed_to_view": false,
   "notes": "Monthly first Tuesday tax deed auction; live property listing table on Tax Office site",
-  "checked": "2026-11-23"
+  "checked": "2026-11-24",
+  "gis_map_url": "https://arcweb.hcad.org/parcel-viewer-v2.0/"
  },
  "Texas|Travis": {
   "sale_list_url": "https://tax-office.traviscountytx.gov/properties/foreclosed",
@@ -341,7 +342,8 @@
   "vendor": "county site",
   "login_needed_to_view": false,
   "notes": "Monthly first Tuesday auction; open data portal provides full interactive delinquent parcel roll",
-  "checked": "2026-11-23"
+  "checked": "2026-11-24",
+  "property_search_url": "https://traviscad.org/propertysearch"
  },
  "North Carolina|Wake": {
   "sale_list_url": "https://www.wake.gov/departments-government/tax-administration/real-estate/foreclosures",
@@ -401,11 +403,13 @@
  },
  "Texas|Dallas": {
   "sale_list_url": "https://www.dallascounty.org/departments/pubworks/property-division.php",
-  "delinquent_list_url": null,
+  "delinquent_list_url": "https://www.dallascounty.org/departments/tax/property-tax.php",
   "vendor": "RealAuction",
   "login_needed_to_view": false,
   "notes": "Census Pop Rank #8; Monthly 1st Tuesday online Sheriff tax foreclosure auctions via RealForeclose/RealAuction; Dallas County Public Works Property Division page links Tax Sale Properties and resale listings",
-  "checked": "2026-11-23"
+  "checked": "2026-11-24",
+  "property_search_url": "https://www.dallascad.org/SearchAcct.aspx",
+  "gis_map_url": "https://gis.dallascad.org/"
  },
  "New York|Kings": {
   "sale_list_url": null,
@@ -445,7 +449,8 @@
   "vendor": "county site",
   "login_needed_to_view": false,
   "notes": "Census Pop Rank #14; Monthly 1st Tuesday in-person Constable Pct. 3 tax deed auctions; monthly property table with cause/account numbers & sale status posted directly on Tarrant County site (also via lgbs.com)",
-  "checked": "2026-11-23"
+  "checked": "2026-11-24",
+  "property_search_url": "https://www.tad.org/property-search/"
  },
  "Texas|Bexar": {
   "sale_list_url": "https://www.bexar.org/DocumentCenter/View/41852/Bexar-County-Resale-Properties-Distribution-List",
@@ -489,11 +494,11 @@
  },
  "Texas|Collin": {
   "sale_list_url": "https://apps2.collincountytx.gov/ForeclosureNotices",
-  "delinquent_list_url": null,
+  "delinquent_list_url": "https://www.collincountytx.gov/tax-assessor",
   "vendor": "county site",
   "login_needed_to_view": false,
   "notes": "Census Pop Rank #33; Monthly 1st Tuesday courthouse steps Constable tax sales (McKinney); live searchable ForeclosureNotices database on Collin County portal displays scheduled sale addresses & dates",
-  "checked": "2026-11-23"
+  "checked": "2026-11-24"
  },
  "Virginia|Fairfax": {
   "sale_list_url": "https://taxva.com/rs-tax-sales/fairfax-county-real-estate-tax-sale/",
@@ -509,7 +514,8 @@
   "vendor": "county site",
   "login_needed_to_view": false,
   "notes": "Census Pop Rank #46; Monthly 1st Tuesday Sheriff/Constable tax sales (online via GovEase & courthouse); monthly foreclosure/sale postings viewable on Denton County Property Records Search",
-  "checked": "2026-11-23"
+  "checked": "2026-11-24",
+  "property_search_url": "https://www.dentoncad.com/property-search"
  },
  "Texas|Fort Bend": {
   "sale_list_url": "https://www.fortbendcountytx.gov/government/departments/constables/constable-precinct-1/property-sales",
@@ -580,7 +586,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "Census Pop Rank #102; Annual October in-person Delinquent Tax Sale (Oct 19–20 in 2026) at Greenville Convention Center; live searchable AS400 Tax Sale List updated weekly on greenvillecounty.org",
+  "notes": "Census Pop Rank #102; Annual October in-person Delinquent Tax Sale (Oct 19\u201320 in 2026) at Greenville Convention Center; live searchable AS400 Tax Sale List updated weekly on greenvillecounty.org",
   "checked": "2026-11-23"
  },
  "Wisconsin|Dane": {
@@ -612,7 +618,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "Census Pop Rank #126; Annual November Delinquent Tax Sale (Nov 2 in 2026) & quarterly Forfeited Land Commission (FLC) sealed-bid sales (Dec 1–15 in 2026); downloadable XLSX FLC Properties Listing & Delinquent Tax Map on richlandcountysc.gov",
+  "notes": "Census Pop Rank #126; Annual November Delinquent Tax Sale (Nov 2 in 2026) & quarterly Forfeited Land Commission (FLC) sealed-bid sales (Dec 1\u201315 in 2026); downloadable XLSX FLC Properties Listing & Delinquent Tax Map on richlandcountysc.gov",
   "checked": "2026-11-23"
  },
  "South Carolina|Charleston": {
@@ -676,7 +682,7 @@
   "delinquent_list_url": null,
   "vendor": "county site",
   "login_needed_to_view": false,
-  "notes": "Census Pop Rank #195; Annual December Delinquent Tax Sale (Dec 8–9 in 2026); official Real Property Tax Sale List PDF posted directly on spartanburgcounty.gov/640/2026-Tax-Sale-Info",
+  "notes": "Census Pop Rank #195; Annual December Delinquent Tax Sale (Dec 8\u20139 in 2026); official Real Property Tax Sale List PDF posted directly on spartanburgcounty.gov/640/2026-Tax-Sale-Info",
   "checked": "2026-11-23"
  },
  "Texas|Galveston": {
@@ -846,5 +852,39 @@
   "login_needed_to_view": false,
   "notes": "Online tax lien certificate sale run by the County Treasurer (usually February). The parcel list is posted before the sale; free to browse, register to bid.",
   "checked": "2026-11-23"
+ },
+ "Texas|Montgomery": {
+  "sale_list_url": "https://mctotx.org/property/delinquent_taxes.php",
+  "delinquent_list_url": "https://mctotx.org/property/delinquent_taxes.php",
+  "vendor": null,
+  "login_needed_to_view": false,
+  "notes": "",
+  "checked": "2026-11-24",
+  "gis_map_url": "https://gis.mcad-tx.org/"
+ },
+ "Texas|Nueces": {
+  "sale_list_url": "https://nueces.texas.sheriffsaleauctions.com/",
+  "delinquent_list_url": null,
+  "vendor": null,
+  "login_needed_to_view": false,
+  "notes": "",
+  "checked": "2026-11-24"
+ },
+ "Texas|Smith": {
+  "sale_list_url": "https://smith.texas.sheriffsaleauctions.com/",
+  "delinquent_list_url": "https://www.smith-county.com/358/Delinquent-Tax-Sales",
+  "vendor": null,
+  "login_needed_to_view": false,
+  "notes": "",
+  "checked": "2026-11-24"
+ },
+ "Texas|Williamson": {
+  "sale_list_url": null,
+  "delinquent_list_url": null,
+  "vendor": null,
+  "login_needed_to_view": false,
+  "notes": "",
+  "checked": "2026-11-24",
+  "property_search_url": "https://search.wcad.org/"
  }
 }
